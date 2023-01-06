@@ -48,17 +48,18 @@ def execute_bash(bash_command: str, display_data: bool = False) -> [str, str]:
 def instantiate_contract(init_query: str, contract_code_id: str, contract_label: str, amount: str = '',
                          from_address: str = '$WALLET', display_data: bool = False) -> bool:
     tx_file_name = f'txs/code_{contract_code_id}_{contract_label.replace(" ", "_")}.json'
+    signed_tx_file_name = f'txs/signed_code_{contract_code_id}_{contract_label.replace(" ", "_")}.json'
     _init_output, _init_error = execute_bash(
         f'''INIT='{init_query}' \
             && cyber tx wasm instantiate {contract_code_id} "$INIT" --from {from_address} \
             --admin {from_address} {'--amount ' + amount + 'boot' if amount else ''} \
             --label "{contract_label}" -y --gas 3500000 --chain-id={NETWORK} --node={NODE_URL} \
             --generate-only > {tx_file_name}''')
-    print(tx_file_name)
-    print(f'\n\tcyber tx sign {tx_file_name} --from={from_address} '
-          f'--output-document=txs/signed_{tx_file_name[4:]}'
-          f'--chain-id=bostrom --ledger --node {NODE_URL}')
-    print(f'\n\tcyber tx broadcast txs/signed_{tx_file_name[4:]} --chain-id=bostrom '
+    print(f'{tx_file_name}'
+          f'\n\n\tcyber tx sign {tx_file_name} --from={from_address} '
+          f'--output-document={signed_tx_file_name} '
+          f'--chain-id=bostrom --ledger --node {NODE_URL}'
+          f'\n\n\tcyber tx broadcast {signed_tx_file_name} --chain-id=bostrom '
           f'--broadcast-mode block --node {NODE_URL}\n')
     if display_data:
         try:
@@ -73,15 +74,24 @@ def instantiate_contract(init_query: str, contract_code_id: str, contract_label:
 
 
 def execute_contract_bash(execute_query: str, contract_address: str, from_address: str = '$WALLET', gas: int = 300000,
-                          display_data: bool = False) -> str:
+                          action_name: str = 'execute', display_data: bool = False) -> str:
+    tx_file_name = f'txs/{contract_address[-4:]}_{action_name}.json'
+    signed_tx_file_name = f'txs/signed_{contract_address[-4:]}_{action_name}.json'
     _execute_output, _execute_error = execute_bash(
         f'''EXECUTE='{execute_query}' \
             && CONTRACT="{contract_address}" \
-            && cyber tx wasm execute $CONTRACT "$EXECUTE" --from {from_address} --broadcast-mode block -o json -y \
-            --gas={gas} --chain-id={NETWORK} --node={NODE_URL}''')
+            && cyber tx wasm execute $CONTRACT "$EXECUTE" --from {from_address} -y \
+            --gas={gas} --chain-id={NETWORK} --node={NODE_URL} --generate-only > {tx_file_name}''')
+    print(f'{tx_file_name}'
+          f'\n\n\tcyber tx sign {tx_file_name} --from={from_address} '
+          f'--output-document={signed_tx_file_name} '
+          f'--chain-id=bostrom --ledger --node {NODE_URL}'
+          f'\n\n\tcyber tx broadcast {signed_tx_file_name} --chain-id=bostrom '
+          f'--broadcast-mode block --node {NODE_URL}\n')
     if display_data:
         try:
-            print(json.dumps(json.loads(_execute_output), indent=4, sort_keys=True))
+            with open(tx_file_name, 'r') as tx_file:
+                print(json.dumps(json.loads(tx_file.read()), indent=4, sort_keys=True))
         except json.JSONDecodeError:
             print(_execute_output)
     if _execute_error:
