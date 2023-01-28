@@ -1,0 +1,9 @@
+pandas
+eth_account
+ipfshttpclient
+multiprocess
+python-dotenv
+tqdm
+ipython
+cyber_sdk
+cyberpy
