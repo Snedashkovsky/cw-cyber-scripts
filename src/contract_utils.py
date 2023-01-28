@@ -26,6 +26,7 @@ def Error_Handler(func):
             print(f'Error: {e}')
         except Exception as e:
             print(f'Error: {e}')
+
     return Inner_Function
 
 
@@ -46,7 +47,61 @@ def execute_bash(bash_command: str, display_data: bool = False) -> [str, str]:
 
 
 def instantiate_contract(init_query: str, contract_code_id: str, contract_label: str, amount: str = '',
-                         from_address: str = '$WALLET', display_data: bool = False) -> bool:
+                         from_address: str = '$WALLET', display_data: bool = False) -> str:
+    _init_output, _init_error = execute_bash(
+        f'''INIT='{init_query}' \
+            && cyber tx wasm instantiate {contract_code_id} "$INIT" --from {from_address} \
+            {'--amount ' + amount + 'boot' if amount else ''} --label "{contract_label}" \
+            -y --gas 3500000 --broadcast-mode block -o json --chain-id={NETWORK} --node={NODE_URL}''')
+    if display_data:
+        try:
+            print(json.dumps(json.loads(_init_output), indent=4, sort_keys=True))
+        except json.JSONDecodeError:
+            print(_init_output)
+    if _init_error:
+        print(_init_error)
+    _init_json = json.loads(_init_output)
+    return [event['attributes'][0]['value']
+            for event in _init_json['logs'][0]['events']
+            if event['type'] == 'instantiate'][0]
+
+
+def execute_contract_bash(execute_query: str, contract_address: str, from_address: str = '$WALLET', gas: int = 300000,
+                          display_data: bool = False) -> str:
+    _execute_output, _execute_error = execute_bash(
+        f'''EXECUTE='{execute_query}' \
+            && CONTRACT="{contract_address}" \
+            && cyber tx wasm execute $CONTRACT "$EXECUTE" --from {from_address} --broadcast-mode block -o json -y \
+            --gas={gas} --chain-id={NETWORK} --node={NODE_URL}''')
+    if display_data:
+        try:
+            print(json.dumps(json.loads(_execute_output), indent=4, sort_keys=True))
+        except json.JSONDecodeError:
+            print(_execute_output)
+    if _execute_error:
+        print(_execute_error)
+    return _execute_output
+
+
+def query_contract(query: str, contract_address: str, display_data: bool = False) -> json:
+    _execute_output, _execute_error = execute_bash(
+        f'''QUERY='{query}' \
+            && cyber query wasm contract-state smart {contract_address} "$QUERY" -o json \
+            --chain-id={NETWORK} --node={NODE_URL}''')
+    try:
+        if display_data:
+            print(json.dumps(json.loads(_execute_output), indent=4, sort_keys=True))
+        return json.loads(_execute_output)
+    except json.JSONDecodeError:
+        print(_execute_output)
+        if _execute_error:
+            print(_execute_error)
+        return json.loads(_execute_output)
+
+
+def instantiate_contract_unsigned_tx(
+        init_query: str, contract_code_id: str, contract_label: str, amount: str = '',
+        from_address: str = '$WALLET', display_data: bool = False) -> bool:
     tx_file_name = f'txs/code_{contract_code_id}_{contract_label.replace(" ", "_")}.json'
     signed_tx_file_name = f'txs/signed_code_{contract_code_id}_{contract_label.replace(" ", "_")}.json'
     _init_output, _init_error = execute_bash(
@@ -73,8 +128,9 @@ def instantiate_contract(init_query: str, contract_code_id: str, contract_label:
     return True
 
 
-def execute_contract_bash(execute_query: str, contract_address: str, from_address: str = '$WALLET', gas: int = 300000,
-                          action_name: str = 'execute', display_data: bool = False) -> str:
+def execute_contract_unsigned_tx(
+        execute_query: str, contract_address: str, from_address: str = '$WALLET', gas: int = 300000,
+        action_name: str = 'execute', display_data: bool = False) -> str:
     tx_file_name = f'txs/{contract_address[-4:]}_{action_name}.json'
     signed_tx_file_name = f'txs/signed_{contract_address[-4:]}_{action_name}.json'
     _execute_output, _execute_error = execute_bash(
@@ -99,22 +155,6 @@ def execute_contract_bash(execute_query: str, contract_address: str, from_addres
     return _execute_output
 
 
-def query_contract(query: str, contract_address: str, display_data: bool = False) -> json:
-    _execute_output, _execute_error = execute_bash(
-        f'''QUERY='{query}' \
-            && cyber query wasm contract-state smart {contract_address} "$QUERY" -o json \
-            --chain-id={NETWORK} --node={NODE_URL}''')
-    try:
-        if display_data:
-            print(json.dumps(json.loads(_execute_output), indent=4, sort_keys=True))
-        return json.loads(_execute_output)
-    except json.JSONDecodeError:
-        print(_execute_output)
-        if _execute_error:
-            print(_execute_error)
-        return json.loads(_execute_output)
-
-
 def get_ipfs_cid_from_str(source_str: str) -> str:
     """
     Use only for getting valid CIDs.
@@ -127,6 +167,21 @@ def get_ipfs_cid_from_str(source_str: str) -> str:
     _length = bytes([len(_source_hash_bytes)])
     _hash = b'\x12' + _length + _source_hash_bytes
     return base58.b58encode(_hash).decode('utf-8')
+
+
+def get_proofs(input_file: str,
+               output_file: str,
+               start_index: int = 1,
+               end_index: int = -1) -> bool:
+    _root_and_proofs_output, _root_and_proofs_error = execute_bash(
+        f'export NODE_OPTIONS=--max_old_space_size=4096 && cd generate_merkle_proofs &&'
+        f'yarn start --input ../{input_file} --output ../{output_file} --start_index {start_index} --end_index {end_index}')
+    if _root_and_proofs_output:
+        print(_root_and_proofs_output)
+        return True
+    else:
+        print(_root_and_proofs_error)
+        return False
 
 
 class ContractUtils:
@@ -197,6 +252,84 @@ class ContractUtils:
             print(_msg)
             print(_tx)
         return self.bostrom_lcd_client.tx.broadcast(_tx).to_json()
+
+    def create_passport(self, claim_row: pd.Series, display_data: bool = False):
+        return self.execute_contract(
+            execute_msg={"create_passport": {"avatar": claim_row["avatar"], "nickname": claim_row["nickname"]}},
+            contract_address=self.name_dict['Passport Contract'],
+            mnemonic=claim_row['cosmos_seed'],
+            gas=500000,
+            display_data=display_data)
+
+    def proof_address(self, claim_row: pd.Series, network: str = 'ethereum', display_data: bool = False):
+        return self.execute_contract(
+            execute_msg={
+                "proof_address": {"address": claim_row[network + "_address"], "nickname": claim_row["nickname"],
+                                  "signature": claim_row[network + "_message_signature"]}},
+            contract_address=self.name_dict['Passport Contract'],
+            mnemonic=claim_row['cosmos_seed'],
+            gas=400000,
+            display_data=display_data)
+
+    def claim(self, claim_row: pd.Series, network: str = 'ethereum', display_data: bool = False):
+        return self.execute_contract(
+            execute_msg={
+                "claim": {"nickname": claim_row['nickname'], "gift_claiming_address": claim_row[network + "_address"],
+                          "gift_amount": str(claim_row['amount']), "proof": claim_row[network + "_proof"]}},
+            contract_address=self.name_dict['Gift Contract'],
+            mnemonic=claim_row['cosmos_seed'],
+            gas=500000,
+            display_data=display_data)
+
+    def release(self, claim_row: pd.Series, network: str = 'ethereum', display_data: bool = False):
+        return self.execute_contract(
+            execute_msg={"release": {"gift_address": claim_row[network + "_address"]}},
+            contract_address=self.name_dict['Gift Contract'],
+            mnemonic=claim_row['cosmos_seed'],
+            gas=400000,
+            display_data=display_data)
+
+    def transfer_passport(self, claim_row: pd.Series, token_id: str, to_address: str = '', display_data: bool = False):
+        if to_address == '':
+            to_address = claim_row['bostrom_address']
+        return self.execute_contract(
+            execute_msg={"transfer_nft": {"recipient": to_address, "token_id": str(token_id)}},
+            contract_address=self.name_dict['Passport Contract'],
+            mnemonic=claim_row['cosmos_seed'],
+            gas=500000,
+            display_data=display_data)
+
+    def burn_passport(self, claim_row: pd.Series, token_id: str, display_data: bool = False):
+        return self.execute_contract(
+            execute_msg={"burn": {"token_id": token_id}},
+            contract_address=self.name_dict['Passport Contract'],
+            mnemonic=claim_row['cosmos_seed'],
+            gas=400000,
+            display_data=display_data)
+
+    def update_name(self, claim_row: pd.Series, new_nickname: str, display_data: bool = False):
+        return self.execute_contract(
+            execute_msg={'update_name': {'new_nickname': new_nickname, 'old_nickname': claim_row['nickname']}},
+            contract_address=self.name_dict['Passport Contract'],
+            mnemonic=claim_row['cosmos_seed'],
+            gas=500000,
+            display_data=display_data)
+
+    def update_avatar(self, claim_row: pd.Series, new_avatar: str, display_data: bool = False):
+        return self.execute_contract(
+            execute_msg={'update_avatar': {'new_avatar': new_avatar, 'nickname': claim_row['nickname']}},
+            contract_address=self.name_dict['Passport Contract'],
+            mnemonic=claim_row['cosmos_seed'],
+            gas=500000,
+            display_data=display_data)
+
+    def remove_address(self, claim_row: pd.Series, removed_address: str, display_data: bool = False):
+        return self.execute_contract(
+            execute_msg={'remove_address': {'address': removed_address, 'nickname': claim_row['nickname']}},
+            contract_address=self.name_dict['Passport Contract'],
+            mnemonic=claim_row['cosmos_seed'],
+            gas=500000,
+            display_data=display_data)
 
     def get_contract_name(self, contract_address: str) -> str:
         try:

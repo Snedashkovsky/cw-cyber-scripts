@@ -128,6 +128,11 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# Yarn
+*yarn.lock
+
 # This project
 
 txs/*.json
+data/*
+temp/*
