@@ -38,3 +38,5 @@ generate_merkle_proofs && yarn
 ### [Bostrom Gift calculation](gift_final_merkle_tree.ipynb)
 
 ### [Pussy Gift calculation](pussygift_final_merkle_tree.ipynb)
+
+### [Content-Type and Type-Content Subgraphs](upload_content_type_subgraphs.ipynb)
