@@ -2,20 +2,18 @@ import json
 import base58
 import hashlib
 import pandas as pd
-from subprocess import Popen, PIPE
-
 from aiohttp import ClientConnectorError
+
 from cyber_sdk.client.lcd import LCDClient
 from cyber_sdk.client.lcd.api.tx import CreateTxOptions
-from cyber_sdk.core import AccAddress, Coins
-from cyber_sdk.core.wasm import MsgExecuteContract
+from cyber_sdk.core import Coins
 from cyber_sdk.key.mnemonic import MnemonicKey
 from cyber_sdk.core.bank import MsgMultiSend
 from cyber_sdk.core.bank.msgs import MultiSendInput, MultiSendOutput
+from cyberutils.bash import execute_bash
+from cyberutils.contract import execute_contract as execute_contract_cyberutils
 
-NODE_URL = 'https://rpc.bostrom.cybernode.ai:443'
-LCD_URL = 'https://lcd.bostrom.cybernode.ai/'
-NETWORK = 'bostrom'
+from config import NODE_RPC_URL, CHAIN_ID, LCD_CLIENT
 
 
 def Error_Handler(func):
@@ -30,29 +28,13 @@ def Error_Handler(func):
     return Inner_Function
 
 
-def execute_bash(bash_command: str, display_data: bool = False) -> [str, str]:
-    _output, _error = Popen(bash_command, shell=True, stdout=PIPE, stderr=PIPE).communicate()
-    if _error:
-        display_data = True
-    if display_data:
-        print(bash_command)
-        if _output:
-            try:
-                print(json.dumps(json.loads(_output.decode('utf-8')), indent=4, sort_keys=True))
-            except json.JSONDecodeError:
-                print(_output)
-        if _error:
-            print(_error)
-    return _output.decode('utf-8'), _error.decode('utf-8')
-
-
 def instantiate_contract(init_query: str, contract_code_id: str, contract_label: str, amount: str = '',
                          from_address: str = '$WALLET', display_data: bool = False) -> str:
     _init_output, _init_error = execute_bash(
         f'''INIT='{init_query}' \
             && cyber tx wasm instantiate {contract_code_id} "$INIT" --from {from_address} \
             {'--amount ' + amount + 'boot' if amount else ''} --label "{contract_label}" \
-            -y --gas 3500000 --broadcast-mode block -o json --chain-id={NETWORK} --node={NODE_URL}''')
+            -y --gas 3500000 --broadcast-mode block -o json --chain-id={CHAIN_ID} --node={NODE_RPC_URL}''')
     if display_data:
         try:
             print(json.dumps(json.loads(_init_output), indent=4, sort_keys=True))
@@ -72,7 +54,7 @@ def execute_contract_bash(execute_query: str, contract_address: str, from_addres
         f'''EXECUTE='{execute_query}' \
             && CONTRACT="{contract_address}" \
             && cyber tx wasm execute $CONTRACT "$EXECUTE" --from {from_address} --broadcast-mode block -o json -y \
-            --gas={gas} --chain-id={NETWORK} --node={NODE_URL}''')
+            --gas={gas} --chain-id={CHAIN_ID} --node={NODE_RPC_URL}''')
     if display_data:
         try:
             print(json.dumps(json.loads(_execute_output), indent=4, sort_keys=True))
@@ -87,7 +69,7 @@ def query_contract(query: str, contract_address: str, display_data: bool = False
     _execute_output, _execute_error = execute_bash(
         f'''QUERY='{query}' \
             && cyber query wasm contract-state smart {contract_address} "$QUERY" -o json \
-            --chain-id={NETWORK} --node={NODE_URL}''')
+            --chain-id={CHAIN_ID} --node={NODE_RPC_URL}''')
     try:
         if display_data:
             print(json.dumps(json.loads(_execute_output), indent=4, sort_keys=True))
@@ -108,14 +90,14 @@ def instantiate_contract_unsigned_tx(
         f'''INIT='{init_query}' \
             && cyber tx wasm instantiate {contract_code_id} "$INIT" --from {from_address} \
             --admin {from_address} {'--amount ' + amount + 'boot' if amount else ''} \
-            --label "{contract_label}" -y --gas 3500000 --chain-id={NETWORK} --node={NODE_URL} \
+            --label "{contract_label}" -y --gas 3500000 --chain-id={CHAIN_ID} --node={NODE_RPC_URL} \
             --generate-only > {tx_file_name}''')
     print(f'{tx_file_name}'
           f'\n\n\tcyber tx sign {tx_file_name} --from={from_address} '
           f'--output-document={signed_tx_file_name} '
-          f'--chain-id=bostrom --ledger --node {NODE_URL}'
-          f'\n\n\tcyber tx broadcast {signed_tx_file_name} --chain-id=bostrom '
-          f'--broadcast-mode block --node {NODE_URL}\n')
+          f'--chain-id={CHAIN_ID} --ledger --node {NODE_RPC_URL}'
+          f'\n\n\tcyber tx broadcast {signed_tx_file_name} --chain-id={CHAIN_ID} '
+          f'--broadcast-mode block --node {NODE_RPC_URL}\n')
     if display_data:
         try:
             with open(tx_file_name, 'r') as tx_file:
@@ -137,13 +119,13 @@ def execute_contract_unsigned_tx(
         f'''EXECUTE='{execute_query}' \
             && CONTRACT="{contract_address}" \
             && cyber tx wasm execute $CONTRACT "$EXECUTE" --from {from_address} -y \
-            --gas={gas} --chain-id={NETWORK} --node={NODE_URL} --generate-only > {tx_file_name}''')
+            --gas={gas} --chain-id={CHAIN_ID} --node={NODE_RPC_URL} --generate-only > {tx_file_name}''')
     print(f'{tx_file_name}'
           f'\n\n\tcyber tx sign {tx_file_name} --from={from_address} '
           f'--output-document={signed_tx_file_name} '
-          f'--chain-id=bostrom --ledger --node {NODE_URL}'
-          f'\n\n\tcyber tx broadcast {signed_tx_file_name} --chain-id=bostrom '
-          f'--broadcast-mode block --node {NODE_URL}\n')
+          f'--chain-id={CHAIN_ID} --ledger --node {NODE_RPC_URL}'
+          f'\n\n\tcyber tx broadcast {signed_tx_file_name} --chain-id={CHAIN_ID} '
+          f'--broadcast-mode block --node {NODE_RPC_URL}\n')
     if display_data:
         try:
             with open(tx_file_name, 'r') as tx_file:
@@ -186,14 +168,11 @@ def get_proofs(input_file: str,
 
 class ContractUtils:
 
-    def __init__(self, ipfs_client, address_dict: dict, url: str = LCD_URL, chain_id: str = NETWORK):
+    def __init__(self, ipfs_client, address_dict: dict, lcd_client: LCDClient = LCD_CLIENT):
         self.ipfs_client = ipfs_client
         self.address_dict = address_dict
         self.name_dict = {v: k for k, v in address_dict.items()}
-        self.bostrom_lcd_client = LCDClient(
-            url=url,
-            chain_id=chain_id
-        )
+        self.lcd_client = lcd_client
 
     def set_address_dict(self, address_dict):
         self.address_dict = address_dict
@@ -202,7 +181,7 @@ class ContractUtils:
     def send_coins(self, from_seed: str, to_addresses: list, amounts: list, gas: int = 70999, denom: str = 'boot',
                    display_data: bool = False) -> str:
         _mk = MnemonicKey(mnemonic=from_seed)
-        _wallet = self.bostrom_lcd_client.wallet(key=_mk)
+        _wallet = self.lcd_client.wallet(key=_mk)
 
         _msg = MsgMultiSend(
             inputs=[
@@ -226,32 +205,19 @@ class ContractUtils:
         if display_data:
             print(_msg)
             print('\n', _tx)
-        return self.bostrom_lcd_client.tx.broadcast(_tx).to_json()
+        return self.lcd_client.tx.broadcast(_tx).to_json()
 
     # def query_contract(self, query_msg: dict, contract_address: str) -> json:
-    #     return self.bostrom_lcd_client.wasm.contract_query(contract_address=contract_address, query_msg=query_msg)
+    #     return self.lcd_client.wasm.contract_query(contract_address=contract_address, query_msg=query_msg)
 
     def execute_contract(self, execute_msg: json, contract_address: str, mnemonic: str,
-                         gas: int = 500000, gas_price: int = 0, display_data: bool = False) -> str:
+                         gas: int = 500000, fee_amount: int = 0, fee_denom: str = 'boot',
+                         display_data: bool = False) -> str:
         _key = MnemonicKey(mnemonic=mnemonic)
-        _wallet = self.bostrom_lcd_client.wallet(key=_key)
-
-        _msg = MsgExecuteContract(
-            sender=_wallet.key.acc_address,
-            contract=AccAddress(contract_address),
-            execute_msg=execute_msg)
-
-        _tx = _wallet.create_and_sign_tx(
-            CreateTxOptions(
-                msgs=[_msg],
-                gas_prices=str(gas_price) + 'boot',
-                gas=str(gas)
-            )
-        )
-        if display_data:
-            print(_msg)
-            print(_tx)
-        return self.bostrom_lcd_client.tx.broadcast(_tx).to_json()
+        _wallet = self.lcd_client.wallet(key=_key)
+        return execute_contract_cyberutils(
+            execute_msgs=[execute_msg], wallet=_wallet, contract_address=contract_address,
+            lcd_client=self.lcd_client, gas=gas, fee_amount=fee_amount, fee_denom=fee_denom).to_json()
 
     def create_passport(self, claim_row: pd.Series, display_data: bool = False):
         return self.execute_contract(

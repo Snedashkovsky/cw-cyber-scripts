@@ -1,4 +1,5 @@
 from dotenv import dotenv_values
+
 import ipfshttpclient
 from multiaddr import Multiaddr
 from cyber_sdk.client.lcd import LCDClient
@@ -14,11 +15,13 @@ BASH_TIMEOUT = 20
 
 GRAPHQL_URL = 'https://index.bostrom.cybernode.ai/v1/graphql'
 
-BOSTROM_NODE_RPC_URL = 'https://rpc.bostrom.cybernode.ai:443'
-BOSTROM_NODE_LCD_URL = 'https://lcd.bostrom.cybernode.ai/'
-BOSTROM_CHAIN_ID = 'bostrom'
-BOSTROM_LCD_CLIENT = LCDClient(
+NODE_RPC_URL = 'https://rpc.bostrom.cybernode.ai:443'
+NODE_LCD_URL = 'https://lcd.bostrom.cybernode.ai/'
+CHAIN_ID = 'bostrom'
+LCD_CLIENT = LCDClient(
     url="https://lcd.bostrom.cybernode.ai/",
     chain_id="bostrom",
 )
 BASE_COIN_DENOM = 'boot'
+
+CYBERLINK_CREATION_QUERY = './src/create_cyberlink.sh'
