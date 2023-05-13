@@ -3,6 +3,8 @@ import base58
 import hashlib
 import pandas as pd
 from aiohttp import ClientConnectorError
+from ipfshttpclient import Client as IPFSClient
+from typing import Optional
 
 from cyber_sdk.client.lcd import LCDClient
 from cyber_sdk.client.lcd.api.tx import CreateTxOptions
@@ -111,24 +113,23 @@ def instantiate_contract_unsigned_tx(
 
 
 def execute_contract_unsigned_tx(
-        execute_query: str, contract_address: str, from_address: str = '$WALLET', gas: int = 300000,
-        action_name: str = 'execute', display_data: bool = False) -> str:
-    tx_file_name = f'txs/{contract_address[-4:]}_{action_name}.json'
-    signed_tx_file_name = f'txs/signed_{contract_address[-4:]}_{action_name}.json'
+        execute_query: str, contract_address: str, tx_unsigned_file_name: str, tx_signed_file_name: str,
+        from_address: str = '$WALLET', gas: int = 400000, display_data: bool = False) -> str:
     _execute_output, _execute_error = execute_bash(
         f'''EXECUTE='{execute_query}' \
             && CONTRACT="{contract_address}" \
             && cyber tx wasm execute $CONTRACT "$EXECUTE" --from {from_address} -y \
-            --gas={gas} --chain-id={CHAIN_ID} --node={NODE_RPC_URL} --generate-only > {tx_file_name}''')
-    print(f'{tx_file_name}'
-          f'\n\n\tcyber tx sign {tx_file_name} --from={from_address} '
-          f'--output-document={signed_tx_file_name} '
+            --gas={gas} --chain-id={CHAIN_ID} --node={NODE_RPC_URL} --generate-only > {tx_unsigned_file_name}''',
+        shell=True)
+    print(f'{tx_unsigned_file_name}'
+          f'\n\n\tcyber tx sign {tx_unsigned_file_name} --from={from_address} '
+          f'--output-document={tx_signed_file_name} '
           f'--chain-id={CHAIN_ID} --ledger --node {NODE_RPC_URL}'
-          f'\n\n\tcyber tx broadcast {signed_tx_file_name} --chain-id={CHAIN_ID} '
+          f'\n\n\tcyber tx broadcast {tx_signed_file_name} --chain-id={CHAIN_ID} '
           f'--broadcast-mode block --node {NODE_RPC_URL}\n')
     if display_data:
         try:
-            with open(tx_file_name, 'r') as tx_file:
+            with open(tx_unsigned_file_name, 'r') as tx_file:
                 print(json.dumps(json.loads(tx_file.read()), indent=4, sort_keys=True))
         except json.JSONDecodeError:
             print(_execute_output)
@@ -168,10 +169,11 @@ def get_proofs(input_file: str,
 
 class ContractUtils:
 
-    def __init__(self, ipfs_client, address_dict: dict, lcd_client: LCDClient = LCD_CLIENT):
-        self.ipfs_client = ipfs_client
+    def __init__(self, address_dict: dict,
+                 lcd_client: LCDClient = LCD_CLIENT, ipfs_client: Optional[IPFSClient] = None):
         self.address_dict = address_dict
         self.name_dict = {v: k for k, v in address_dict.items()}
+        self.ipfs_client = ipfs_client
         self.lcd_client = lcd_client
 
     def set_address_dict(self, address_dict):
@@ -303,8 +305,8 @@ class ContractUtils:
         except KeyError:
             return contract_address
 
-    def get_name_from_cid(self, ipfs_hash: str, row=None) -> str:
-        if row is None:
+    def get_name_from_cid(self, ipfs_hash: str, row: Optional[pd.Series] = None) -> str:
+        if row is None or self.ipfs_client is None:
             return ipfs_hash
         cid_name_dict = {
             row['avatar']: 'Avatar',

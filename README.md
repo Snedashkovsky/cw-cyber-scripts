@@ -12,9 +12,9 @@
 - [hub-skills](https://github.com/cybercongress/cw-cyber/tree/hub/contracts/hub-skills)
 - [hub-tokens](https://github.com/cybercongress/cw-cyber/tree/hub/contracts/hub-tokens)
 
-### [Initialize Hub contracts](initialize_hub.ipynb)
+### [Initialize Hub contracts](hub_initialize.ipynb)
 
-### [Upload data to Hub contracts](upload_data_to_hub.ipynb)
+### [Upload data to Hub contracts](hub_upload_data.ipynb)
 
 ## Gift contracts
 
