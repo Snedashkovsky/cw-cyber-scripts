@@ -1,0 +1,6 @@
+[submodule "cw-cyber"]
+	path = cw-cyber
+	url = https://github.com/cybercongress/cw-cyber
+	branch = hub
+[submodule "https://github.com/cybercongress/cw-cyber"]
+	branch = hub
