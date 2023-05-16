@@ -1,1 +1,74 @@
-[{"chain_id": "bostrom", "genesis_hash": "QmYubyVNfghD4xCrTFj26zBwrF9s5GJhi1TmxvrwmJCipr", "logo": "QmSVz41kA5aXttxT1rAXnuJecfazij3wh95X8ewd7Kdc2F", "name": "bostrom", "prefix": "bostrom", "protocol": "cyber-rpc", "unbonding_period": "691200"}, {"chain_id": "space-pussy", "genesis_hash": "QmTR1k469ZNJdmhT2WY67A6fccpj1pRkHTmnZZtYpPDnH7", "logo": "QmSdVMzpY9nuHZXZpvZdFbhhMf3nBGAe4JZ7e2Xdh6LMLr", "name": "space-pussy", "prefix": "pussy", "protocol": "cyber-rpc", "unbonding_period": "2419200"}, {"chain_id": "cosmoshub-4", "genesis_hash": "Qmc54DreioPpPDUdJW6bBTYUKepmcPsscfqsfFcFmTaVig", "logo": "QmTKr13S2qLoz9QiYmBrkfxkotLQohv78X1ZfuAmcs5rH6", "name": "cosmos", "prefix": "cosmos", "protocol": "cosmos-rpc", "unbonding_period": "1814400"}, {"chain_id": "osmosis-1", "genesis_hash": "QmXRvBT3hgoXwwPqbK6a2sXUuArGM8wPyo1ybskyyUwUxs", "logo": "QmREkHXDNxxKNa7RSWsztkT6iy8ghZuBpbjSAgGaQ3uGVr", "name": "osmosis", "prefix": "osmo", "protocol": "osmosis-rpc", "unbonding_period": "1209600"}, {"chain_id": "juno-1", "genesis_hash": "QmPJ2Q4D6GDbbU68ga5jQJ9AXpv7WcM63QEVRup6LMjzsb", "logo": "QmYKE9KZW7JPtGkvjwSusrzAzRt8UYUQ27SJmyGomu3RWu", "name": "juno", "prefix": "juno", "protocol": "juno-rpc", "unbonding_period": "2419200"}, {"chain_id": "gravity-bridge-3", "genesis_hash": "Qmed9LHnN2ovM4BdiJ2RPecB99PVK9yfFEV5FpwdDNiVsJ", "logo": "QmTEmFLmSU79tVpXJj1TvepN9Ujjwi77YRRSDewMnFeV8p", "name": "gravity bridge", "prefix": "gravity", "protocol": "gravity-rpc", "unbonding_period": "1814400"}, {"chain_id": "axelar-dojo-1", "genesis_hash": "QmZLQoafcmhLkYgZb7HMB15Fg6RfKs8Yro44tkrxwNBcTu", "logo": "QmW389aWTLgDS3q6DjWuP3VBGzfi3s1seAj7GqpkCpSdV4", "name": "axelar", "prefix": "axelar", "protocol": "axelar-rpc", "unbonding_period": "604800"}]
+[
+  {
+    "chain_id": "bostrom",
+    "genesis_hash": "QmYubyVNfghD4xCrTFj26zBwrF9s5GJhi1TmxvrwmJCipr",
+    "logo": "QmSVz41kA5aXttxT1rAXnuJecfazij3wh95X8ewd7Kdc2F",
+    "name": "bostrom",
+    "prefix": "bostrom",
+    "protocol": "cyber-rpc",
+    "unbonding_period": "691200"
+  },
+  {
+    "chain_id": "space-pussy",
+    "genesis_hash": "QmTR1k469ZNJdmhT2WY67A6fccpj1pRkHTmnZZtYpPDnH7",
+    "logo": "QmSdVMzpY9nuHZXZpvZdFbhhMf3nBGAe4JZ7e2Xdh6LMLr",
+    "name": "space-pussy",
+    "prefix": "pussy",
+    "protocol": "cyber-rpc",
+    "unbonding_period": "2419200"
+  },
+  {
+    "chain_id": "cosmoshub-4",
+    "genesis_hash": "Qmc54DreioPpPDUdJW6bBTYUKepmcPsscfqsfFcFmTaVig",
+    "logo": "QmTKr13S2qLoz9QiYmBrkfxkotLQohv78X1ZfuAmcs5rH6",
+    "name": "cosmos",
+    "prefix": "cosmos",
+    "protocol": "cosmos-rpc",
+    "unbonding_period": "1814400"
+  },
+  {
+    "chain_id": "osmosis-1",
+    "genesis_hash": "QmXRvBT3hgoXwwPqbK6a2sXUuArGM8wPyo1ybskyyUwUxs",
+    "logo": "QmREkHXDNxxKNa7RSWsztkT6iy8ghZuBpbjSAgGaQ3uGVr",
+    "name": "osmosis",
+    "prefix": "osmo",
+    "protocol": "osmosis-rpc",
+    "unbonding_period": "1209600"
+  },
+  {
+    "chain_id": "juno-1",
+    "genesis_hash": "QmPJ2Q4D6GDbbU68ga5jQJ9AXpv7WcM63QEVRup6LMjzsb",
+    "logo": "QmYKE9KZW7JPtGkvjwSusrzAzRt8UYUQ27SJmyGomu3RWu",
+    "name": "juno",
+    "prefix": "juno",
+    "protocol": "juno-rpc",
+    "unbonding_period": "2419200"
+  },
+  {
+    "chain_id": "gravity-bridge-3",
+    "genesis_hash": "Qmed9LHnN2ovM4BdiJ2RPecB99PVK9yfFEV5FpwdDNiVsJ",
+    "logo": "QmTEmFLmSU79tVpXJj1TvepN9Ujjwi77YRRSDewMnFeV8p",
+    "name": "gravity bridge",
+    "prefix": "gravity",
+    "protocol": "gravity-rpc",
+    "unbonding_period": "1814400"
+  },
+  {
+    "chain_id": "axelar-dojo-1",
+    "genesis_hash": "QmZLQoafcmhLkYgZb7HMB15Fg6RfKs8Yro44tkrxwNBcTu",
+    "logo": "QmW389aWTLgDS3q6DjWuP3VBGzfi3s1seAj7GqpkCpSdV4",
+    "name": "axelar",
+    "prefix": "axelar",
+    "protocol": "axelar-rpc",
+    "unbonding_period": "604800"
+  },
+  {
+    "chain_id": "evmos_9001-2",
+    "genesis_hash": "QmYmcmveFYMdA1NRAvAa3hKM8HQRdiwfmYtf3GgyJGTMEa",
+    "logo": "QmSAuJKD9dxbFdiVGqgBt21kRZw2gGxS2UahgnQBEYwFNf",
+    "name": "evmos",
+    "prefix": "evmos",
+    "protocol": "evmos-rpc",
+    "unbonding_period": "1209600"
+  }
+]

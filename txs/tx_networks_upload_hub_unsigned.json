@@ -133,6 +133,25 @@
           },
           "coins": []
         }
+      },
+      {
+        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+        "value": {
+          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
+          "contract": "bostrom1ka63rny987cfu79jpfaytn4rjepz4q8na4gtgdz83r79p0yy84gqy6kc8k",
+          "execute_msg": {
+            "CreateEntry": {
+              "chain_id": "evmos_9001-2",
+              "genesis_hash": "QmYmcmveFYMdA1NRAvAa3hKM8HQRdiwfmYtf3GgyJGTMEa",
+              "logo": "QmSAuJKD9dxbFdiVGqgBt21kRZw2gGxS2UahgnQBEYwFNf",
+              "name": "evmos",
+              "prefix": "evmos",
+              "protocol": "evmos-rpc",
+              "unbonding_period": "1209600"
+            }
+          },
+          "coins": []
+        }
       }
     ],
     "memo": "add entry",

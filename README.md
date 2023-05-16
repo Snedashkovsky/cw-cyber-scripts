@@ -14,6 +14,8 @@
 
 ### [Initialize Hub contracts](hub_initialize.ipynb)
 
+### [Generate of data uploaded into Hub contracts](hub_generate_upload_data.ipynb)
+
 ### [Upload data to Hub contracts](hub_upload_data.ipynb)
 
 ## Gift contracts

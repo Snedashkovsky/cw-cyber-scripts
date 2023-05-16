@@ -1,1 +1,47 @@
-[{"data_type": "ipfs-gateway"}, {"data_type": "cyber-rpc"}, {"data_type": "cyber-ws"}, {"data_type": "cosmos-rpc"}, {"data_type": "cosmos-ws"}, {"data_type": "osmosis-rpc"}, {"data_type": "osmosis-ws"}, {"data_type": "juno-rpc"}, {"data_type": "juno-ws"}, {"data_type": "gravity-rpc"}, {"data_type": "gravity-ws"}, {"data_type": "axelar-rpc"}, {"data_type": "axelar-ws"}]
+[
+  {
+    "data_type": "ipfs-gateway"
+  },
+  {
+    "data_type": "cyber-rpc"
+  },
+  {
+    "data_type": "cyber-ws"
+  },
+  {
+    "data_type": "cosmos-rpc"
+  },
+  {
+    "data_type": "cosmos-ws"
+  },
+  {
+    "data_type": "osmosis-rpc"
+  },
+  {
+    "data_type": "osmosis-ws"
+  },
+  {
+    "data_type": "juno-rpc"
+  },
+  {
+    "data_type": "juno-ws"
+  },
+  {
+    "data_type": "gravity-rpc"
+  },
+  {
+    "data_type": "gravity-ws"
+  },
+  {
+    "data_type": "axelar-rpc"
+  },
+  {
+    "data_type": "axelar-ws"
+  },
+  {
+    "data_type": "evmos-rpc"
+  },
+  {
+    "data_type": "evmos-ws"
+  }
+]
