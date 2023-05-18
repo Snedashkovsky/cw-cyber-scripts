@@ -34,9 +34,10 @@ def instantiate_contract(init_query: str, contract_code_id: str, contract_label:
                          from_address: str = '$WALLET', display_data: bool = False) -> str:
     _init_output, _init_error = execute_bash(
         f'''INIT='{init_query}' \
-            && cyber tx wasm instantiate {contract_code_id} "$INIT" --from {from_address} \
-            {'--amount ' + amount + 'boot' if amount else ''} --label "{contract_label}" \
-            -y --gas 3500000 --broadcast-mode block -o json --chain-id={CHAIN_ID} --node={NODE_RPC_URL}''')
+            && cyber tx wasm instantiate {contract_code_id} "$INIT" --from={from_address} \
+            {'--amount=' + amount + 'boot' if amount else ''} --label="{contract_label}" \
+            -y --gas=3500000 --broadcast-mode=block -o=json --chain-id={CHAIN_ID} --node={NODE_RPC_URL}''',
+        shell=True)
     if display_data:
         try:
             print(json.dumps(json.loads(_init_output), indent=4, sort_keys=True))
@@ -55,8 +56,9 @@ def execute_contract_bash(execute_query: str, contract_address: str, from_addres
     _execute_output, _execute_error = execute_bash(
         f'''EXECUTE='{execute_query}' \
             && CONTRACT="{contract_address}" \
-            && cyber tx wasm execute $CONTRACT "$EXECUTE" --from {from_address} --broadcast-mode block -o json -y \
-            --gas={gas} --chain-id={CHAIN_ID} --node={NODE_RPC_URL}''')
+            && cyber tx wasm execute $CONTRACT "$EXECUTE" --from={from_address} --broadcast-mode=block -o=json -y \
+            --gas={gas} --chain-id={CHAIN_ID} --node={NODE_RPC_URL}''',
+        shell=True)
     if display_data:
         try:
             print(json.dumps(json.loads(_execute_output), indent=4, sort_keys=True))
@@ -70,8 +72,9 @@ def execute_contract_bash(execute_query: str, contract_address: str, from_addres
 def query_contract(query: str, contract_address: str, display_data: bool = False) -> json:
     _execute_output, _execute_error = execute_bash(
         f'''QUERY='{query}' \
-            && cyber query wasm contract-state smart {contract_address} "$QUERY" -o json \
-            --chain-id={CHAIN_ID} --node={NODE_RPC_URL}''')
+            && cyber query wasm contract-state smart {contract_address} "$QUERY" -o=json \
+            --chain-id={CHAIN_ID} --node={NODE_RPC_URL}''',
+        shell=True)
     try:
         if display_data:
             print(json.dumps(json.loads(_execute_output), indent=4, sort_keys=True))
@@ -90,16 +93,17 @@ def instantiate_contract_unsigned_tx(
     signed_tx_file_name = f'txs/signed_code_{contract_code_id}_{contract_label.replace(" ", "_")}.json'
     _init_output, _init_error = execute_bash(
         f'''INIT='{init_query}' \
-            && cyber tx wasm instantiate {contract_code_id} "$INIT" --from {from_address} \
-            --admin {from_address} {'--amount ' + amount + 'boot' if amount else ''} \
-            --label "{contract_label}" -y --gas 3500000 --chain-id={CHAIN_ID} --node={NODE_RPC_URL} \
-            --generate-only > {tx_file_name}''')
+            && cyber tx wasm instantiate {contract_code_id} "$INIT" --from={from_address} \
+            --admin={from_address} {'--amount=' + amount + 'boot' if amount else ''} \
+            --label="{contract_label}" -y --gas=3500000 --chain-id={CHAIN_ID} --node={NODE_RPC_URL} \
+            --generate-only > {tx_file_name}''',
+        shell=True)
     print(f'{tx_file_name}'
           f'\n\n\tcyber tx sign {tx_file_name} --from={from_address} '
           f'--output-document={signed_tx_file_name} '
-          f'--chain-id={CHAIN_ID} --ledger --node {NODE_RPC_URL}'
+          f'--chain-id={CHAIN_ID} --ledger --node={NODE_RPC_URL}'
           f'\n\n\tcyber tx broadcast {signed_tx_file_name} --chain-id={CHAIN_ID} '
-          f'--broadcast-mode block --node {NODE_RPC_URL}\n')
+          f'--broadcast-mode=block --node={NODE_RPC_URL}\n')
     if display_data:
         try:
             with open(tx_file_name, 'r') as tx_file:
@@ -118,15 +122,15 @@ def execute_contract_unsigned_tx(
     _execute_output, _execute_error = execute_bash(
         f'''EXECUTE='{execute_query}' \
             && CONTRACT="{contract_address}" \
-            && cyber tx wasm execute $CONTRACT "$EXECUTE" --from {from_address} -y \
+            && cyber tx wasm execute $CONTRACT "$EXECUTE" --from={from_address} -y \
             --gas={gas} --chain-id={CHAIN_ID} --node={NODE_RPC_URL} --generate-only > {tx_unsigned_file_name}''',
         shell=True)
     print(f'{tx_unsigned_file_name}'
           f'\n\n\tcyber tx sign {tx_unsigned_file_name} --from={from_address} '
           f'--output-document={tx_signed_file_name} '
-          f'--chain-id={CHAIN_ID} --ledger --node {NODE_RPC_URL}'
+          f'--chain-id={CHAIN_ID} --ledger --node={NODE_RPC_URL}'
           f'\n\n\tcyber tx broadcast {tx_signed_file_name} --chain-id={CHAIN_ID} '
-          f'--broadcast-mode block --node {NODE_RPC_URL}\n')
+          f'--broadcast-mode=block --node={NODE_RPC_URL}\n')
     if display_data:
         try:
             with open(tx_unsigned_file_name, 'r') as tx_file:

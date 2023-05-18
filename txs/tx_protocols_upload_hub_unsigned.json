@@ -195,6 +195,162 @@
           },
           "coins": []
         }
+      },
+      {
+        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+        "value": {
+          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
+          "contract": "bostrom1latjl5jde9x7ndu0c9qr4ceyzvyr0ngs95fydqhx8xa6t0md7h4sryuzz0",
+          "execute_msg": {
+            "CreateEntry": {
+              "data_type": "agoric-rpc"
+            }
+          },
+          "coins": []
+        }
+      },
+      {
+        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+        "value": {
+          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
+          "contract": "bostrom1latjl5jde9x7ndu0c9qr4ceyzvyr0ngs95fydqhx8xa6t0md7h4sryuzz0",
+          "execute_msg": {
+            "CreateEntry": {
+              "data_type": "agoric-ws"
+            }
+          },
+          "coins": []
+        }
+      },
+      {
+        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+        "value": {
+          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
+          "contract": "bostrom1latjl5jde9x7ndu0c9qr4ceyzvyr0ngs95fydqhx8xa6t0md7h4sryuzz0",
+          "execute_msg": {
+            "CreateEntry": {
+              "data_type": "akashnet-rpc"
+            }
+          },
+          "coins": []
+        }
+      },
+      {
+        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+        "value": {
+          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
+          "contract": "bostrom1latjl5jde9x7ndu0c9qr4ceyzvyr0ngs95fydqhx8xa6t0md7h4sryuzz0",
+          "execute_msg": {
+            "CreateEntry": {
+              "data_type": "akashnet-ws"
+            }
+          },
+          "coins": []
+        }
+      },
+      {
+        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+        "value": {
+          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
+          "contract": "bostrom1latjl5jde9x7ndu0c9qr4ceyzvyr0ngs95fydqhx8xa6t0md7h4sryuzz0",
+          "execute_msg": {
+            "CreateEntry": {
+              "data_type": "arkh-rpc"
+            }
+          },
+          "coins": []
+        }
+      },
+      {
+        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+        "value": {
+          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
+          "contract": "bostrom1latjl5jde9x7ndu0c9qr4ceyzvyr0ngs95fydqhx8xa6t0md7h4sryuzz0",
+          "execute_msg": {
+            "CreateEntry": {
+              "data_type": "arkh-ws"
+            }
+          },
+          "coins": []
+        }
+      },
+      {
+        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+        "value": {
+          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
+          "contract": "bostrom1latjl5jde9x7ndu0c9qr4ceyzvyr0ngs95fydqhx8xa6t0md7h4sryuzz0",
+          "execute_msg": {
+            "CreateEntry": {
+              "data_type": "phoenix-rpc"
+            }
+          },
+          "coins": []
+        }
+      },
+      {
+        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+        "value": {
+          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
+          "contract": "bostrom1latjl5jde9x7ndu0c9qr4ceyzvyr0ngs95fydqhx8xa6t0md7h4sryuzz0",
+          "execute_msg": {
+            "CreateEntry": {
+              "data_type": "phoenix-ws"
+            }
+          },
+          "coins": []
+        }
+      },
+      {
+        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+        "value": {
+          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
+          "contract": "bostrom1latjl5jde9x7ndu0c9qr4ceyzvyr0ngs95fydqhx8xa6t0md7h4sryuzz0",
+          "execute_msg": {
+            "CreateEntry": {
+              "data_type": "eightball-rpc"
+            }
+          },
+          "coins": []
+        }
+      },
+      {
+        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+        "value": {
+          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
+          "contract": "bostrom1latjl5jde9x7ndu0c9qr4ceyzvyr0ngs95fydqhx8xa6t0md7h4sryuzz0",
+          "execute_msg": {
+            "CreateEntry": {
+              "data_type": "eightball-ws"
+            }
+          },
+          "coins": []
+        }
+      },
+      {
+        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+        "value": {
+          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
+          "contract": "bostrom1latjl5jde9x7ndu0c9qr4ceyzvyr0ngs95fydqhx8xa6t0md7h4sryuzz0",
+          "execute_msg": {
+            "CreateEntry": {
+              "data_type": "desmos-rpc"
+            }
+          },
+          "coins": []
+        }
+      },
+      {
+        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+        "value": {
+          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
+          "contract": "bostrom1latjl5jde9x7ndu0c9qr4ceyzvyr0ngs95fydqhx8xa6t0md7h4sryuzz0",
+          "execute_msg": {
+            "CreateEntry": {
+              "data_type": "desmos-ws"
+            }
+          },
+          "coins": []
+        }
       }
     ],
     "memo": "add entry",
@@ -203,7 +359,7 @@
   "auth_info": {
     "signer_infos": [],
     "fee": {
-      "gas_limit": "5000000",
+      "gas_limit": "20000000",
       "amount": [
         {
           "denom": "boot",

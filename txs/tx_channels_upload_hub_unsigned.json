@@ -189,11 +189,65 @@
           "execute_msg": {
             "CreateEntry": {
               "active": "true",
+              "destination_chain_id": "agoric-3",
+              "destination_channel_id": "channel-22",
+              "source_chain_id": "bostrom",
+              "source_channel_id": "channel-18",
+              "explorer_url": ""
+            }
+          },
+          "coins": []
+        }
+      },
+      {
+        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+        "value": {
+          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
+          "contract": "bostrom1jsc2h2t2r4vpytz0ashmvpt5pqnyqculjq9t9vwy2p5wcu64xytqmzcdvj",
+          "execute_msg": {
+            "CreateEntry": {
+              "active": "true",
+              "destination_chain_id": "akashnet-2",
+              "destination_channel_id": "channel-83",
+              "source_chain_id": "bostrom",
+              "source_channel_id": "channel-19",
+              "explorer_url": "https://www.mintscan.io/akash"
+            }
+          },
+          "coins": []
+        }
+      },
+      {
+        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+        "value": {
+          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
+          "contract": "bostrom1jsc2h2t2r4vpytz0ashmvpt5pqnyqculjq9t9vwy2p5wcu64xytqmzcdvj",
+          "execute_msg": {
+            "CreateEntry": {
+              "active": "true",
               "destination_chain_id": "osmosis-1",
               "destination_channel_id": "channel-95",
               "source_chain_id": "bostrom",
               "source_channel_id": "channel-2",
               "explorer_url": "https://mintscan.io/osmosis"
+            }
+          },
+          "coins": []
+        }
+      },
+      {
+        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+        "value": {
+          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
+          "contract": "bostrom1jsc2h2t2r4vpytz0ashmvpt5pqnyqculjq9t9vwy2p5wcu64xytqmzcdvj",
+          "execute_msg": {
+            "CreateEntry": {
+              "active": "true",
+              "destination_chain_id": "arkh",
+              "destination_channel_id": "channel-25",
+              "source_chain_id": "bostrom",
+              "source_channel_id": "channel-20",
+              "explorer_url": ""
             }
           },
           "coins": []
@@ -332,7 +386,7 @@
   "auth_info": {
     "signer_infos": [],
     "fee": {
-      "gas_limit": "5000000",
+      "gas_limit": "20000000",
       "amount": [
         {
           "denom": "boot",

@@ -1,12 +1,9 @@
 from dotenv import dotenv_values
 
-import ipfshttpclient
-from multiaddr import Multiaddr
 from cyber_sdk.client.lcd import LCDClient
 
 
 IPFS_HOST = dotenv_values(".env")['IPFS_HOST']
-ipfs_client = ipfshttpclient.connect(addr=Multiaddr(IPFS_HOST))
 
 WALLET_ADDRESS = dotenv_values('.env')['WALLET_ADDRESS']
 WALLET_SEED = dotenv_values('.env')['WALLET_SEED']
