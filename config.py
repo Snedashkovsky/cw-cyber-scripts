@@ -18,4 +18,10 @@ CHAIN_ID = 'bostrom'
 LCD_CLIENT = LCDClient(url=NODE_LCD_URL, chain_id=CHAIN_ID)
 BASE_COIN_DENOM = 'boot'
 
+PUSSY_NODE_RPC_URL = 'https://rpc.space-pussy.cybernode.ai:443'
+PUSSY_NODE_LCD_URL = 'https://lcd.space-pussy.cybernode.ai/'
+PUSSY_POOLS_BASH_QUERY = f'pussy query liquidity pools --node {PUSSY_NODE_RPC_URL} -o json'
+PUSSY_CHAIN_ID = 'space-pussy'
+PUSSY_LCD_CLIENT = LCDClient(chain_id=PUSSY_CHAIN_ID, url=PUSSY_NODE_LCD_URL, prefix='pussy')
+
 CYBERLINK_CREATION_QUERY = './src/create_cyberlink.sh'
