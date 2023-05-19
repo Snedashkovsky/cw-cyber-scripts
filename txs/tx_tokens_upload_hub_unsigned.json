@@ -11,7 +11,7 @@
               "chain_id": "bostrom",
               "channel": "",
               "decimals": 0,
-              "logo": "QmSVz41kA5aXttxT1rAXnuJecfazij3wh95X8ewd7Kdc2F",
+              "logo": "QmaFs8AjTfNy6XFq8xb6boN1eC4nrznaPnvytJtq3FHnkf",
               "ticker": "boot",
               "contract": "boot"
             }
@@ -29,7 +29,7 @@
               "chain_id": "bostrom",
               "channel": "",
               "decimals": 0,
-              "logo": "",
+              "logo": "QmZDWdXXBgJJ5QEvc68xeaJhk3dwJgsVQnSjJnoEtCBRrK",
               "ticker": "hydrogen",
               "contract": "hydrogen"
             }
@@ -47,7 +47,7 @@
               "chain_id": "bostrom",
               "channel": "channel-2",
               "decimals": 6,
-              "logo": "QmREkHXDNxxKNa7RSWsztkT6iy8ghZuBpbjSAgGaQ3uGVr",
+              "logo": "QmdbiuCkCGiFV8aaUVyJTpVMLj97DLvF8vbM1mf73xRsVJ",
               "ticker": "osmo",
               "contract": "ibc/13B2C536BB057AC79D5616B8EA1B9540EC1F2170718CAFF6F0083C966FFFED0B"
             }
@@ -65,7 +65,7 @@
               "chain_id": "bostrom",
               "channel": "channel-8",
               "decimals": 6,
-              "logo": "QmTKr13S2qLoz9QiYmBrkfxkotLQohv78X1ZfuAmcs5rH6",
+              "logo": "Qmb5L5ZwJSt22Vra9jNph7aSFKqfVW8f4HVWqNU15qsqDX",
               "ticker": "atom",
               "contract": "ibc/15E9C5CF5969080539DB395FA7D9C0868265217EFC528433671AAF9B1912D159"
             }
@@ -83,7 +83,7 @@
               "chain_id": "bostrom",
               "channel": "channel-12 channel-62",
               "decimals": 6,
-              "logo": "",
+              "logo": "QmeZp5GFJYaiCkrwgpAZJooAV78xx1TkjhDCeVvC3wWfx6",
               "ticker": "cre",
               "contract": "ibc/1DE3244B072A8939517C17C7B679F3B735B2D9AA6BE91CF5B04D01B645B33701"
             }
@@ -101,7 +101,7 @@
               "chain_id": "bostrom",
               "channel": "channel-11",
               "decimals": 3,
-              "logo": "",
+              "logo": "QmTBHnJ27sADmHuFdaxo5i1m9Jvo988MUQP3Yp9Ph8Ua27",
               "ticker": "ampere",
               "contract": "ibc/29FC7F418F1EFB5DAB3DD089AADA1FE406DC78633BFF3D3E2B3D767368AC083D"
             }
@@ -119,7 +119,7 @@
               "chain_id": "bostrom",
               "channel": "channel-6 channel-34",
               "decimals": 6,
-              "logo": "",
+              "logo": "QmebxhXS3YzC7o5vcPhVMqDmfrtGcCfNEshzhqgYoruKXj",
               "ticker": "huahua",
               "contract": "ibc/32C4CC556FB73E889DF1A7836A29951F1087525240FF9EEF6AEB616A83C6C9AC"
             }
@@ -137,7 +137,7 @@
               "chain_id": "bostrom",
               "channel": "channel-6",
               "decimals": 18,
-              "logo": "QmTEmFLmSU79tVpXJj1TvepN9Ujjwi77YRRSDewMnFeV8p",
+              "logo": "QmQotGqeEKQLkssVx3yKuGqkcS6awFzgZLwnoyycqzffmL",
               "ticker": "graviton",
               "contract": "ibc/3554989531C7DB295D548F373FE93205215CAC2820A62D748E5A3703044D481E"
             }
@@ -155,7 +155,7 @@
               "chain_id": "bostrom",
               "channel": "channel-2 channel-165",
               "decimals": 6,
-              "logo": "",
+              "logo": "QmPPUxZiN1Xa2dxN3ZQ9wv5xikXfBWqZWSx5fKBJRUuyzJ",
               "ticker": "somm",
               "contract": "ibc/40A19DA7BB2E2275ABC84D0823D6C30E6F49FF541E111395A97CFA019BFED6CA"
             }
@@ -173,7 +173,7 @@
               "chain_id": "bostrom",
               "channel": "channel-11",
               "decimals": 0,
-              "logo": "QmSdVMzpY9nuHZXZpvZdFbhhMf3nBGAe4JZ7e2Xdh6LMLr",
+              "logo": "QmVdamuwvpDUENhsGH5RGP7Dx4redrCFCM3kuy5hNFvo9r",
               "ticker": "pussy",
               "contract": "ibc/43DB7553C43D81CB01E9A2644B49A241314B482C2E56F86E85A6539C60383151"
             }
@@ -191,7 +191,7 @@
               "chain_id": "bostrom",
               "channel": "channel-11",
               "decimals": 3,
-              "logo": "",
+              "logo": "QmWgPPn5CVYroJfvZVqnd4YzH3iqNEkhCLAuQS6jLs8nxZ",
               "ticker": "volt",
               "contract": "ibc/47160B934644DED2F8E605B0521C6CC06F75A0465D8B7F2846A318B3B45D4834"
             }
@@ -209,7 +209,7 @@
               "chain_id": "bostrom",
               "channel": "channel-9",
               "decimals": 6,
-              "logo": "QmSAuJKD9dxbFdiVGqgBt21kRZw2gGxS2UahgnQBEYwFNf",
+              "logo": "QmNcoUHaACiZ8mM89qvA3spsBebbrQWtGNyoQcRSoJiFPF",
               "ticker": "evmos",
               "contract": "ibc/4B322204B4F59D770680FE4D7A565DDC3F37BFF035474B717476C66A4F83DD72"
             }
@@ -227,7 +227,7 @@
               "chain_id": "bostrom",
               "channel": "channel-6 channel-65 channel-3",
               "decimals": 6,
-              "logo": "QmTKr13S2qLoz9QiYmBrkfxkotLQohv78X1ZfuAmcs5rH6",
+              "logo": "Qmb5L5ZwJSt22Vra9jNph7aSFKqfVW8f4HVWqNU15qsqDX",
               "ticker": "atom",
               "contract": "ibc/5711BC92C095B0A50F0E7F6684ABD5CABB6EE93F0096ED3A84952C0C73C94719"
             }
@@ -245,7 +245,7 @@
               "chain_id": "bostrom",
               "channel": "channel-2 channel-0",
               "decimals": 6,
-              "logo": "QmTKr13S2qLoz9QiYmBrkfxkotLQohv78X1ZfuAmcs5rH6",
+              "logo": "Qmb5L5ZwJSt22Vra9jNph7aSFKqfVW8f4HVWqNU15qsqDX",
               "ticker": "atom",
               "contract": "ibc/5F78C42BCC76287AE6B3185C6C1455DFFF8D805B1847F94B9B625384B93885C7"
             }
@@ -263,7 +263,7 @@
               "chain_id": "bostrom",
               "channel": "channel-10",
               "decimals": 6,
-              "logo": "QmYKE9KZW7JPtGkvjwSusrzAzRt8UYUQ27SJmyGomu3RWu",
+              "logo": "QmZyWYqKU4ny1gqSz16CmfrHJKS4zkybjS2DDQxs7YZPV9",
               "ticker": "juno",
               "contract": "ibc/8D9262E35CAE362FA74AE05E430550757CF8D842EC1B241F645D3CB7179AFD10"
             }
@@ -281,7 +281,7 @@
               "chain_id": "bostrom",
               "channel": "channel-2 channel-199 channel-3 channel-103",
               "decimals": 0,
-              "logo": "QmSVz41kA5aXttxT1rAXnuJecfazij3wh95X8ewd7Kdc2F",
+              "logo": "QmaFs8AjTfNy6XFq8xb6boN1eC4nrznaPnvytJtq3FHnkf",
               "ticker": "boot",
               "contract": "ibc/913F49D47DDB9DD8FD4E846E6522822AF9F99C5FFBDD4330908E6977706ED97C"
             }
@@ -317,7 +317,7 @@
               "chain_id": "bostrom",
               "channel": "channel-6 channel-10 channel-95",
               "decimals": 0,
-              "logo": "QmSVz41kA5aXttxT1rAXnuJecfazij3wh95X8ewd7Kdc2F",
+              "logo": "QmaFs8AjTfNy6XFq8xb6boN1eC4nrznaPnvytJtq3FHnkf",
               "ticker": "boot",
               "contract": "ibc/B35B29C176E29BD9C348F72FA4DCF2AB68BB38085584EEC46ED0E1EBED8DB53D"
             }
@@ -335,7 +335,7 @@
               "chain_id": "bostrom",
               "channel": "channel-12",
               "decimals": 18,
-              "logo": "",
+              "logo": "QmTmWfYKHargbHsujSL22fw9jhg2ew2XvVToEzs5AdkSdv",
               "ticker": "graveth",
               "contract": "ibc/B6CAD3F7469F3FAD18ED2230A6C7B15E654AB2E1B66E1C70879C04FEF874A863"
             }
@@ -353,7 +353,7 @@
               "chain_id": "bostrom",
               "channel": "channel-5",
               "decimals": 6,
-              "logo": "QmTKr13S2qLoz9QiYmBrkfxkotLQohv78X1ZfuAmcs5rH6",
+              "logo": "Qmb5L5ZwJSt22Vra9jNph7aSFKqfVW8f4HVWqNU15qsqDX",
               "ticker": "atom",
               "contract": "ibc/BA313C4A19DFBF943586C0387E6B11286F9E416B4DD27574E6909CABE0E342FA"
             }
@@ -371,7 +371,7 @@
               "chain_id": "bostrom",
               "channel": "channel-12",
               "decimals": 18,
-              "logo": "QmTEmFLmSU79tVpXJj1TvepN9Ujjwi77YRRSDewMnFeV8p",
+              "logo": "QmQotGqeEKQLkssVx3yKuGqkcS6awFzgZLwnoyycqzffmL",
               "ticker": "graviton",
               "contract": "ibc/C23D820C5B6009E544AFC8AF5A2FEC288108AEDBFAEFDBBDD6BE54CC23069559"
             }
@@ -389,7 +389,7 @@
               "chain_id": "bostrom",
               "channel": "channel-13",
               "decimals": 6,
-              "logo": "",
+              "logo": "QmeYujkRMAXxh3JDrtT1B3NvCQL6tAuzbF8UkF6KjrJH1B",
               "ticker": "dsm",
               "contract": "ibc/CA5E8F31288514D728AFD1F0533A7F6902AA1192C88C9540F814893C3EAFE244"
             }
@@ -407,7 +407,7 @@
               "chain_id": "bostrom",
               "channel": "channel-8 channel-141 channel-95 channel-8",
               "decimals": 6,
-              "logo": "QmTKr13S2qLoz9QiYmBrkfxkotLQohv78X1ZfuAmcs5rH6",
+              "logo": "Qmb5L5ZwJSt22Vra9jNph7aSFKqfVW8f4HVWqNU15qsqDX",
               "ticker": "atom",
               "contract": "ibc/CB41EF44BC15C8857B34EA151C8C480706E2A430A677850D3772C8543BD92F3A"
             }
@@ -443,7 +443,7 @@
               "chain_id": "bostrom",
               "channel": "channel-4",
               "decimals": 6,
-              "logo": "QmTKr13S2qLoz9QiYmBrkfxkotLQohv78X1ZfuAmcs5rH6",
+              "logo": "Qmb5L5ZwJSt22Vra9jNph7aSFKqfVW8f4HVWqNU15qsqDX",
               "ticker": "atom",
               "contract": "ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0"
             }
@@ -461,7 +461,7 @@
               "chain_id": "bostrom",
               "channel": "channel-9 channel-0 channel-95 channel-9",
               "decimals": 6,
-              "logo": "QmSAuJKD9dxbFdiVGqgBt21kRZw2gGxS2UahgnQBEYwFNf",
+              "logo": "QmNcoUHaACiZ8mM89qvA3spsBebbrQWtGNyoQcRSoJiFPF",
               "ticker": "evmos",
               "contract": "ibc/FA8CE16D380167E62FFD7D34BC0FEEA40DB5506D798D3A3554D64B78593D8906"
             }
@@ -479,7 +479,7 @@
               "chain_id": "bostrom",
               "channel": "",
               "decimals": 3,
-              "logo": "",
+              "logo": "QmTBHnJ27sADmHuFdaxo5i1m9Jvo988MUQP3Yp9Ph8Ua27",
               "ticker": "ampere",
               "contract": "milliampere"
             }
@@ -497,7 +497,7 @@
               "chain_id": "bostrom",
               "channel": "",
               "decimals": 3,
-              "logo": "",
+              "logo": "QmWgPPn5CVYroJfvZVqnd4YzH3iqNEkhCLAuQS6jLs8nxZ",
               "ticker": "volt",
               "contract": "millivolt"
             }
@@ -516,7 +516,7 @@
               "channel": "",
               "decimals": "0",
               "logo": "",
-              "ticker": "pool",
+              "ticker": "pool0B7D80CEB5EF865B56CD189BC23203F99EC4009A15AEBB20E32B23638D1DE894",
               "contract": "pool0B7D80CEB5EF865B56CD189BC23203F99EC4009A15AEBB20E32B23638D1DE894"
             }
           },
@@ -534,7 +534,7 @@
               "channel": "",
               "decimals": "0",
               "logo": "",
-              "ticker": "pool",
+              "ticker": "pool1A492174015ABA47066C8569AFF7582C551980840AAE7EBAEFB667347EDDB601",
               "contract": "pool1A492174015ABA47066C8569AFF7582C551980840AAE7EBAEFB667347EDDB601"
             }
           },
@@ -552,7 +552,7 @@
               "channel": "",
               "decimals": "0",
               "logo": "",
-              "ticker": "pool",
+              "ticker": "pool27BBCA67F42ED27DFFB6A450966C7EA206ADAA42BA0A1871FADC6C59569F6E8D",
               "contract": "pool27BBCA67F42ED27DFFB6A450966C7EA206ADAA42BA0A1871FADC6C59569F6E8D"
             }
           },
@@ -570,7 +570,7 @@
               "channel": "",
               "decimals": "0",
               "logo": "",
-              "ticker": "pool",
+              "ticker": "pool3215BC1A427DA452FCC3AE9641AC5D17D736B3943A0DE58223F0BF2F4C8D9BB2",
               "contract": "pool3215BC1A427DA452FCC3AE9641AC5D17D736B3943A0DE58223F0BF2F4C8D9BB2"
             }
           },
@@ -588,7 +588,7 @@
               "channel": "",
               "decimals": "0",
               "logo": "",
-              "ticker": "pool",
+              "ticker": "pool4FD3991B994C4602882E8AEACDA9375F4BBE5116E062E8265844596C340C502F",
               "contract": "pool4FD3991B994C4602882E8AEACDA9375F4BBE5116E062E8265844596C340C502F"
             }
           },
@@ -606,7 +606,7 @@
               "channel": "",
               "decimals": "0",
               "logo": "",
-              "ticker": "pool",
+              "ticker": "pool5D5734E54F485FBAF21DF886EC396F2CBC72203BF050BDE0F99EB94EA37D39E8",
               "contract": "pool5D5734E54F485FBAF21DF886EC396F2CBC72203BF050BDE0F99EB94EA37D39E8"
             }
           },
@@ -624,7 +624,7 @@
               "channel": "",
               "decimals": "0",
               "logo": "",
-              "ticker": "pool",
+              "ticker": "pool5D83035BE0E7AB904379161D3C52FB4C1C392265AC19CE39A864146198610628",
               "contract": "pool5D83035BE0E7AB904379161D3C52FB4C1C392265AC19CE39A864146198610628"
             }
           },
@@ -642,7 +642,7 @@
               "channel": "",
               "decimals": "0",
               "logo": "",
-              "ticker": "pool",
+              "ticker": "pool70D7610CBA8E94B27BAD7806EBD826F5626C486BBF5C490D1463D72314353C66",
               "contract": "pool70D7610CBA8E94B27BAD7806EBD826F5626C486BBF5C490D1463D72314353C66"
             }
           },
@@ -660,7 +660,7 @@
               "channel": "",
               "decimals": "0",
               "logo": "",
-              "ticker": "pool",
+              "ticker": "pool72F72D8646E5FF5AA9C8C6CB4F85EE13C63CD6A15A7757746BD9FC449760CBF2",
               "contract": "pool72F72D8646E5FF5AA9C8C6CB4F85EE13C63CD6A15A7757746BD9FC449760CBF2"
             }
           },
@@ -678,7 +678,7 @@
               "channel": "",
               "decimals": "0",
               "logo": "",
-              "ticker": "pool",
+              "ticker": "pool745F45704DFB96E3BAD8223EB91540E08DA279049BDB80665B4B2820CA2EAE7C",
               "contract": "pool745F45704DFB96E3BAD8223EB91540E08DA279049BDB80665B4B2820CA2EAE7C"
             }
           },
@@ -696,7 +696,7 @@
               "channel": "",
               "decimals": "0",
               "logo": "",
-              "ticker": "pool",
+              "ticker": "pool79B9E8E233B61B84EA5AE564AB080FC492B4C953A9D8B409F300D9E29716459F",
               "contract": "pool79B9E8E233B61B84EA5AE564AB080FC492B4C953A9D8B409F300D9E29716459F"
             }
           },
@@ -714,7 +714,7 @@
               "channel": "",
               "decimals": "0",
               "logo": "",
-              "ticker": "pool",
+              "ticker": "pool906F3CC4C0F4634031990DB81761BD390890F8A8A80460EBDC6B151254DE7D1D",
               "contract": "pool906F3CC4C0F4634031990DB81761BD390890F8A8A80460EBDC6B151254DE7D1D"
             }
           },
@@ -732,7 +732,7 @@
               "channel": "",
               "decimals": "0",
               "logo": "",
-              "ticker": "pool",
+              "ticker": "pool98692450C039BDD30563475A7699A7805075F592A36837A04357F20B0D59C90F",
               "contract": "pool98692450C039BDD30563475A7699A7805075F592A36837A04357F20B0D59C90F"
             }
           },
@@ -750,7 +750,7 @@
               "channel": "",
               "decimals": "0",
               "logo": "",
-              "ticker": "pool",
+              "ticker": "poolB02CE42B202A71419D2F9EB4996B36C52F1B5B60DAF7D7B1474660A95656C126",
               "contract": "poolB02CE42B202A71419D2F9EB4996B36C52F1B5B60DAF7D7B1474660A95656C126"
             }
           },
@@ -768,7 +768,7 @@
               "channel": "",
               "decimals": "0",
               "logo": "",
-              "ticker": "pool",
+              "ticker": "poolB0B2848FDE249D431B50CA59E42C37F41C5A2E11D04470737078D96A43451404",
               "contract": "poolB0B2848FDE249D431B50CA59E42C37F41C5A2E11D04470737078D96A43451404"
             }
           },
@@ -786,7 +786,7 @@
               "channel": "",
               "decimals": "0",
               "logo": "",
-              "ticker": "pool",
+              "ticker": "poolBE0F1D1C7FE3E72D18DF1996AB8E76676852A34313D2772E7ED36B041DCAB182",
               "contract": "poolBE0F1D1C7FE3E72D18DF1996AB8E76676852A34313D2772E7ED36B041DCAB182"
             }
           },
@@ -804,7 +804,7 @@
               "channel": "",
               "decimals": "0",
               "logo": "",
-              "ticker": "pool",
+              "ticker": "poolD0B5122C1EAB5BE4276EE232D9C493EC9472F9C2655EFF9D307732A812B6455F",
               "contract": "poolD0B5122C1EAB5BE4276EE232D9C493EC9472F9C2655EFF9D307732A812B6455F"
             }
           },
@@ -822,7 +822,7 @@
               "channel": "",
               "decimals": "0",
               "logo": "",
-              "ticker": "pool",
+              "ticker": "poolD8DCE9545B510DE6086A45A8B697250B536B97AF2F679E4BAC097173D674AB0C",
               "contract": "poolD8DCE9545B510DE6086A45A8B697250B536B97AF2F679E4BAC097173D674AB0C"
             }
           },
@@ -840,7 +840,7 @@
               "channel": "",
               "decimals": "0",
               "logo": "",
-              "ticker": "pool",
+              "ticker": "poolE21C556E3469226354EC7AC6BE8452906F678D25F911E5D34F3983E3BA335F5D",
               "contract": "poolE21C556E3469226354EC7AC6BE8452906F678D25F911E5D34F3983E3BA335F5D"
             }
           },
@@ -858,7 +858,7 @@
               "channel": "",
               "decimals": "0",
               "logo": "",
-              "ticker": "pool",
+              "ticker": "poolE32688109702769B49F6471789C4EDE96096D9BFBE21FB4046715D6BC9934674",
               "contract": "poolE32688109702769B49F6471789C4EDE96096D9BFBE21FB4046715D6BC9934674"
             }
           },
@@ -876,7 +876,7 @@
               "channel": "",
               "decimals": "0",
               "logo": "",
-              "ticker": "pool",
+              "ticker": "poolE479A51F998E2979F89DA9AB897ED45A9AFE4E7DE32BE3D30FB456E58F80D4E9",
               "contract": "poolE479A51F998E2979F89DA9AB897ED45A9AFE4E7DE32BE3D30FB456E58F80D4E9"
             }
           },
@@ -894,7 +894,7 @@
               "channel": "",
               "decimals": "0",
               "logo": "",
-              "ticker": "pool",
+              "ticker": "poolE734706B12D1672FAC713CA6578F5303AC359E4CE089C1CEDB4320F07E5D970D",
               "contract": "poolE734706B12D1672FAC713CA6578F5303AC359E4CE089C1CEDB4320F07E5D970D"
             }
           },
@@ -912,7 +912,7 @@
               "channel": "",
               "decimals": "0",
               "logo": "",
-              "ticker": "pool",
+              "ticker": "poolF064538FBA4C66F225BA5C98E608BBB1FAFE16636DEA2AA7B08E35C6E717BC75",
               "contract": "poolF064538FBA4C66F225BA5C98E608BBB1FAFE16636DEA2AA7B08E35C6E717BC75"
             }
           },
@@ -929,1917 +929,9 @@
               "chain_id": "bostrom",
               "channel": "",
               "decimals": 0,
-              "logo": "",
+              "logo": "QmaFDLBuEf3Uo1gYCY3CciGwgXxcc5pEVKwpVCfCcrJFyp",
               "ticker": "tocyb",
               "contract": "tocyb"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "FCWT",
-              "contract": "bostrom14hj2tavq8fpesdwxxcu44rty3hh90vhujrvcmstl4zr3txmfvw9sww4mxt"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "NTN",
-              "contract": "bostrom1suhgf5svhu4usrurvxzlgn54ksxmn8gljarjtxqnapv8kjnp4nrs3mewwz"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "NTN",
-              "contract": "bostrom1yyca08xqdgvjz0psg56z67ejh9xms6l436u8y58m82npdqqhmmtquldtvc"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "NTN",
-              "contract": "bostrom1yw4xvtc43me9scqfr2jr2gzvcxd3a9y4eq7gaukreugw2yd2f8tsa7wdwt"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "SKI",
-              "contract": "bostrom1cnuw3f076wgdyahssdkd0g3nr96ckq8cwa2mh029fn5mgf2fmcmsyjyuue"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "NTN",
-              "contract": "bostrom1ltd0maxmte3xf4zshta9j5djrq9cl692ctsp9u5q0p9wss0f5lmspn0aqx"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "NTN",
-              "contract": "bostrom1wl59k23zngj34l7d42y9yltask7rjlnxgccawc7ltrknp6n52fpst3kwur"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "NTN",
-              "contract": "bostrom1dt3lk455ed360pna38fkhqn0p8y44qndsr77qu73ghyaz2zv4whq795aw6"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "NTN",
-              "contract": "bostrom1stwdtk6ja0705v8qmtukcp4vd422p5vy4jr5wdc4qk44c57k955qpkak5a"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "NTN",
-              "contract": "bostrom1nwnejwsdpqktusvh8qhxe5arsznjd5asdwutmaz9n5qcpl3dcmhsujhemd"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "NTN",
-              "contract": "bostrom1n8ze4phtshhlucclf2hkrxs3u29gtyv2cc9v5ld8fu7en6838caqtqh4es"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "NTN",
-              "contract": "bostrom1y6hjq8yvqzk6al4yrjl7yjkt87ujvhaq32c0qvt7627sk0j63d2qadpn77"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "NTN",
-              "contract": "bostrom16p5fm4qrpjpxd8f5wpt48fgyyd5c79q4n35fgvq7x2yks2lu8llqrx33wz"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "NTN",
-              "contract": "bostrom1m4ns69zvkk2zv0946mw298tlky5ckvu08rtxggtg29p784kc5sxqrkv5pl"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "NTN",
-              "contract": "bostrom1a2366fuydkz20h9q9kaxg5vqwpu8prgs6mhwn5qha3wsups0trcqugfkh6"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "NTN",
-              "contract": "bostrom19jq6mj84cnt9p7sagjxqf8hxtczwc8wlpuwe4sh62w45aheseueseqe5ul"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "NTN",
-              "contract": "bostrom1etxtq3v4chzn7xrah3w6ukkxy7vlc889n5ervgxz425msar6ajzs869wa3"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "NTN",
-              "contract": "bostrom14sa4u42n2a8kmlvj3qcergjhy6g9ps06rzeth94f2y6grlat6u6spmw5ha"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "NTN",
-              "contract": "bostrom1ypk8p7c82whs9xdja6ku7q6slzj8kvfwkgxnyeuevhtf03fteylq66uv02"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "NTN",
-              "contract": "bostrom1l6ut7ymdzhf38wldp0eu6ccjawgvzku69kmjl6ddjqpcm9f62gkqufluv3"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "NTN",
-              "contract": "bostrom1qg5ttwx6ylpphgc3rtu5j8sgjn0d4p2dv7q6kpw8d3lf8tkr6ahsedqr4h"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "NTN",
-              "contract": "bostrom1lj48z799hq4hgzg6ppdzsq55h6cezfe0cmrnnv7cclkpw9qrvf9sq9wd75"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "BTC",
-              "contract": "bostrom1387uc3z2zs3663d06f59vsn5ams2x6e33gqpghjkmhafjqsc9a3qdwrgss"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 6,
-              "logo": "{'url': 'https://toppng.com/uploads/preview/sample-logo-11551056375txoo49urn6.png'}",
-              "ticker": "JUSD",
-              "contract": "bostrom1hz3svgdhmv67lsqlduu0tcnd3f75c0xr0mu48l6ywuwlz43zssjqztrp7f"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 10,
-              "logo": "{'url': 'url.com'}",
-              "ticker": "afa",
-              "contract": "bostrom1qfwnnm6z7zlgpk2ltwfh9hk8d4vwpu5h5nv2pqxwthve7htygzmsntvhwu"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "{'url': 'https://i.pinimg.com/736x/aa/fd/51/aafd5197836f6f4d395f06e4ca0ec417.jpg'}",
-              "ticker": "LIINA",
-              "contract": "bostrom14vjqp6cq9mr90wzmqxsa5erx70h4xy5eep0jynjqmlstupngtghqpk9kva"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "{'url': 'https://i.pinimg.com/564x/56/9e/ea/569eea7f7e797ec2df1ae8bd4082e684.jpg'}",
-              "ticker": "VTKN",
-              "contract": "bostrom1hw7hhql6f25n49u9ju5vxhae3l9t9ck57xrnur24zxg0rvuky9mqatqvg3"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 2,
-              "logo": "{'url': '\ud83c\uddec\ud83c\uddea'}",
-              "ticker": "KLARI",
-              "contract": "bostrom17s7emulfygjuk0xn906athk5e5efsdtumsat5n2nad7mtrg4xresu66g83"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 6,
-              "logo": "{'url': 'https://www.example.com/image.png'}",
-              "ticker": "AAAB",
-              "contract": "bostrom14tccd5wwd6ygwtx67xdfpzz8xn8ysd3rkmkd3pj326l2v7asjr6q5cmkug"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "{'url': '\ud83d\udca9'}",
-              "ticker": "SHTKN",
-              "contract": "bostrom1zvjnc08uy0zz43m0nlh9f5aetpa3amn6a034yqvmsgvzshk9cldsqf2n5c"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 2,
-              "logo": "{'url': '\ud83d\udc3d'}",
-              "ticker": "PGNN",
-              "contract": "bostrom1vm7slaygzkr3qllr8d4s6n4xq5wmvdauu3395lvkf53rhh6tgkhqrjg2xu"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "NTN",
-              "contract": "bostrom1r57m20afwdhkwy67520p8vzdchzecesmlmc8k8w2z7t3h9aevjvsts872g"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 2,
-              "logo": "{'url': 'http://logo.com'}",
-              "ticker": "TEST",
-              "contract": "bostrom1xl7dhgwggn43hy9q2dmul8hln5e9hzja48h7r4k0de4lachysq4s7hh996"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 2,
-              "logo": "",
-              "ticker": "TEST",
-              "contract": "bostrom1pv56ghmgnt9sv0ry6fg3rqf6wgfnckksppltamwsdnd0e0e0kfms92ntpq"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "TEST",
-              "contract": "bostrom10t2y7f9m0twpsrz3kvfp55nlgzc86kace2se3uarkv380h3pk6qqexed44"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "TEST",
-              "contract": "bostrom12cvr4t3rqdl5d90p3qsdq2ej8dte5k4gdsxs6uccmzq4h2307nfq8pfa6j"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 4,
-              "logo": "{'url': 'https://ipfs.io/ipfs/QmTBLK8MGXTXdNgjF5P56rmkWPp9zmCneAj6GgJdWWMmzD'}",
-              "ticker": "GUT",
-              "contract": "bostrom1pnzsahkfp9h3gtwkuhsps6xjm5wz5885hpl27atvaqdn7e23vrdqhcafy5"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "{'url': 'https://ipfs.io/ipfs/QmUCCj3Anu4J7PNQx9X7NdGsGTQuS2ZmzQ2qBAws6tXJhc'}",
-              "ticker": "AMJ",
-              "contract": "bostrom1pcmlq5cwmy9lxfhynnuhd0r2djm2xn3ff2xc6njncs8sxzlgle3sa2ucvv"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "{'url': 'https://ipfs.io/ipfs/QmWBqvbYKhZ6mtMg9nW6BmZSHFYt9VoKbEpc1csJ1b1E6N?filename=c9c0a8b49a49838d5555ea647f243a83.jpg'}",
-              "ticker": "OKB",
-              "contract": "bostrom1n08lr7w2tkpd8m79hmt3ex7076awk77qysdzlg70a35agwzznwzqrkrpez"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 4,
-              "logo": "{'url': 'https://ipfs.io/ipfs/QmQFdNZHo6DRxeiwDrjVeF3SHUtmiZwE6G59xsSdLee97A?filename=c7f452373e450564803fe499187b0818.jpg'}",
-              "ticker": "ATH",
-              "contract": "bostrom1yu6t6vxry85yt052uegp8dyrkk84lxsvact60sj25ns4380g03gspx0jke"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "{'url': 'https://ipfs.io/ipfs/QmSjy4unLNAr1cHyaUUJcf9usc4hdUHAFg3p5PvDsM8wXP?filename=dd18c9b2e14fa516b20d8dd907374931.jpg'}",
-              "ticker": "JNB",
-              "contract": "bostrom1xq7yffwchsu2ldw3lukgzcncryva7wt35gv9cr59wt6ts2ktknwqe20r4y"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "{'url': 'https://ipfs.io/ipfs/QmSjy4unLNAr1cHyaUUJcf9usc4hdUHAFg3p5PvDsM8wXP?filename=dd18c9b2e14fa516b20d8dd907374931.jpg'}",
-              "ticker": "SNS",
-              "contract": "bostrom1fchxlkly99gqymnvpfdyqjw9xc2cx62yplvw3rcfl2t5wurj3j9ssempqf"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "{'url': 'https://ipfs.io/ipfs/QmPP1txcmkYQagdoqQzNECfFY55JeVRejoepWs3CoNHtM8?filename=a98913f3f126429d82be0ccca52ba983.jpg'}",
-              "ticker": "HEH",
-              "contract": "bostrom15pqspe0lcyeztwmk232vkwqgpklku5t74du00827l44p4vxnal7qp8xe27"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "AAAA",
-              "contract": "bostrom1kjmzvl2us872qverxre5shu747zsx4rh0xp58l4hx838ck7zcp0qs7uu30"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "{'url': 'https://ipfs.io/ipfs/QmaTUgiWQYdAKCEVTi1AJ8959gZRPYKvj95zD96GAufgpD?filename=4b71801ac93bb8545d87bef95e8a790b.jpg'}",
-              "ticker": "ABRKD",
-              "contract": "bostrom1nreyn9v8hwkmw254cszhsvpzn2a4x8pcjmnv736s53q5pvznm0vq28hgek"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "ASDS",
-              "contract": "bostrom17s8kkfm5lf8lacz704f4fjmfxzuvyqd8cksakrlhnrass4yacvxqhu673c"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "ASDS",
-              "contract": "bostrom1w9udhqtvuefwfmx7af9qe5jjhmrjk4p7ezxm6py08puykgen6uhqyhpwsu"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "{'url': 'https://ipfs.io/ipfs/QmXGHy9sT5zUyNtNErwXhwGpSHLfDv62Hw1Vcj6cXrvSr8?filename=3b401c2890a7ea54b65a0e1abed63e60.jpg'}",
-              "ticker": "CYBC",
-              "contract": "bostrom1l2fvuecjpakxxh6k0mhpxzeln2veqpjs7znm8mfavuwx506v0qnsxr7sar"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 10,
-              "logo": "",
-              "ticker": "AAABD",
-              "contract": "bostrom1nzvd5njkc0gqdezgzzqw00tu056rgxgwaqgq25g9ku0y5au3nwmqhh4kaz"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "{'url': 'https://drive.google.com/file/d/15edrK31IAn4CDjPnA7CoPXs9BUSqqsrG/view?usp=share_link'}",
-              "ticker": "PgN-t",
-              "contract": "bostrom1cv5er0wsla3u33w6rkn7ckxpn88huqh9aw0xpu0pagksege7v7nszs7c9d"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "{'url': 'https://drive.google.com/file/d/15edrK31IAn4CDjPnA7CoPXs9BUSqqsrG/view?usp=share_link'}",
-              "ticker": "PgN-t",
-              "contract": "bostrom1fka7t9avjmx7yphqxn3lzy3880tgcc0wu23xwfwxe5e5y3lkmzfqudn473"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "{'url': 'https://drive.google.com/file/d/15edrK31IAn4CDjPnA7CoPXs9BUSqqsrG/view?usp=share_link'}",
-              "ticker": "PgN-t",
-              "contract": "bostrom1ddstvl38skwpm284gfaqukn3e8c4mlf26mssy5hppeq6ar2nnw0serdun8"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "GHY",
-              "contract": "bostrom1hdnu502uecmddk9w48kxvekgp43mjdpr3mza9kj2tfvjpgef5grscmxg4l"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 8,
-              "logo": "{'url': 'https://ipfs.io/ipfs/QmP4zhvArWmToVcDmuvngtSWFDyNRw7aGkeWidKY67C4sa?filename=cWpwLnBuZw'}",
-              "ticker": "BTC",
-              "contract": "bostrom1qnynuzvl2a5nzxtrhjhw20h0mf7u6tarcuqveqd0qzp7322n5rqs9wnx3q"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "AUT",
-              "contract": "bostrom19377ce3k2893s98xp58vg0jtgtvj5qv405y36l4wf4z2xhnjwh6shrq80l"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "CBP",
-              "contract": "bostrom1r8td9cjggx9f5ek2gzfh34kguxuz5j9rfjemamvjw2he2y84t3xqn47qsf"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "OBL",
-              "contract": "bostrom18ckrreffz9jwmkw84axsvncexfqt7gpgckskk0yy0vzwm9huqkyqzshjgs"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "VGN",
-              "contract": "bostrom10v8m3lglw4vat5g3w4xj7ven7puxudnqkjwwaf9nh3alukxpmh3qktyrc8"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "NBDC",
-              "contract": "bostrom1l0z6d7wlwpwequtenwt8pd44685jyhqys6jdnp8xa8ektn0un4zs93dmfg"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "GDVP",
-              "contract": "bostrom18p7lhcxl3ac85ke52u4h7mmzkv5pk5jl6lpgk2sp73a0cw3u0c5qszd0qv"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "KPWR",
-              "contract": "bostrom1x9zrl4gvf0780rcxnv9fjx2h52jg6zxpxzgq6lhhjqyrg0ue4dyq3pmggq"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "UPD",
-              "contract": "bostrom156x86uprzaj04v7qwnpl8djj5jws3gn73jz08qkydmkd0c0lp6gqp254ht"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "UPDI",
-              "contract": "bostrom18hu00pwvd8kq0cgzk03l2nmp8rr0h5gp6tektz6qazwfapqsl4cqk4pc7q"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "UPDH",
-              "contract": "bostrom17ptevgk0rr06mctweh66mq54ywq62yjllwh5sg0e0f3mr5sta0zqk9kw52"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 10,
-              "logo": "",
-              "ticker": "AAAA",
-              "contract": "bostrom1jpdjyc3c973frxkjkmvgr5ececzf9qslzrunxd2xkstem8zr338sq0t7yj"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "TST",
-              "contract": "bostrom18dhyf7sdkjpmgu4jg6fmf4d6cyj9lez6c2cs5lvprkmyctfrtnzqh9j8t3"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "PgN-t",
-              "contract": "bostrom100pmxfny54wktum5jklg9vme7d5pe44h7va6uw4smccte6wkfausnn4x9z"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 6,
-              "logo": "",
-              "ticker": "wslpt",
-              "contract": "bostrom1379zqdvfjcv3sd0w2zhkvtlc0au5yy4htad6fec92c09rpptd6lsek9yrx"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "NTN",
-              "contract": "bostrom17sxcqvz6vh7nqsj5kantv5x86pj0wc4slh50j9ek60pyjg5tym2qd6rnu7"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 6,
-              "logo": "",
-              "ticker": "wslpt",
-              "contract": "bostrom1m6s6l9uhstdnhnetcs29da4enf8qj0nk4rdvl8gxhl0m8pudtfjstu67wq"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 6,
-              "logo": "",
-              "ticker": "wslpt",
-              "contract": "bostrom1zjw8px94wuqcfa69z2py6x8ax29up26zmk3suqq6d6vvweppffdqnsvfw5"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 6,
-              "logo": "",
-              "ticker": "wslpt",
-              "contract": "bostrom1aqjn8sha92zyqd27d4gw8lnjgmgt24v3ytwm2f9j9rza7pfuku4svfqjh4"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 6,
-              "logo": "",
-              "ticker": "wslpt",
-              "contract": "bostrom1fdtlnwuqwp38tq5ky5g3xfkkafexa4e8q4qy90jxe2vmtl8n56ksq3qljm"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "scsi",
-              "contract": "bostrom1s82s62c3q5cnjfhcqmvthjd58t6jetxmf8rxp9xmqmyy05fu2quseeqatj"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "PgN-t",
-              "contract": "bostrom1w23vphvjp0qm4jhche00905admg69pgry74vv88d09c4k7g67n3q9e3nms"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "TTT",
-              "contract": "bostrom1hje6ecs6u683ypnzu8l5d4jsxq4dy96s0m6ezps9uwcuwl30hfuqy4x65j"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "SSS",
-              "contract": "bostrom1mujpjkwhut9yjw4xueyugc02evfv46y0dtmnz4lh8xxkkdapym9ss96xz0"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "SSS",
-              "contract": "bostrom1exfwrk0t57hn8ffcwjdnh6rkp7mq0n39duhaugttf69znaeq3w3s9wmc4f"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "SSSS",
-              "contract": "bostrom19vxp8vq8qm368dr026qxh8v82satwaf79y235lfv6wmgpwxx8dtscamrcj"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "AAAA",
-              "contract": "bostrom1y2s9zx3lvyhdlqx6mvaq0xe8ctl34rwuqnntjw6meerln6dz7fjsxye5r7"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 10,
-              "logo": "",
-              "ticker": "AABC",
-              "contract": "bostrom168ctmpyppk90d34p3jjy658zf5a5l3w8wk35wht6ccqj4mr0yv8sdwagq0"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 10,
-              "logo": "",
-              "ticker": "AABCA",
-              "contract": "bostrom1s84uvkzuz7tlyykp587aynn8xr0m6t5r64lz6pkfyzyrhzaezhrss8uvkl"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 10,
-              "logo": "",
-              "ticker": "AACC",
-              "contract": "bostrom1exdh6lv0l5cukjg2gmrymy9cpyunughewwx8d8g93sqfnzy7mudslyawvk"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 10,
-              "logo": "",
-              "ticker": "AAS",
-              "contract": "bostrom1lvhdnjcq05czd38hy25fzk80cn03hhxens4e2am9468rmpzc82mshp9hv8"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "{'url': 'https://ipfs.io/ipfs/QmcGtVuAzMs42McWpPLELab6xUM5dczruzqkM9ngEbx31f?filename=dd7213770ced500e719464c5053e88d3.jpg'}",
-              "ticker": "TTC",
-              "contract": "bostrom13xww866f545ackl0004tm94jdh5y7hht5rjnpejktyw4nqkvrxtsuxfrq6"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "fff",
-              "contract": "bostrom1w9pht45shvg9p0lpvs37hug0jggplaet56gz44vx4lcw3fuamfcsns2h3d"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "fff",
-              "contract": "bostrom1phzfjt6x25u29grhesrkw4enwytynufdptk87cauvwy5aw4h5uxsqhcle2"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "PgN-t",
-              "contract": "bostrom1j9a5fr6rcfq2kuew5n48cc6l6j2wd2jzrw8eea0aj8qypvex02dqeydd2n"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "ZZZ",
-              "contract": "bostrom1taerpmv0tzdrnls7z567khds88fwfpdaeeg7s0wkel9zjap7gnes5rzywn"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "PPP",
-              "contract": "bostrom1gje2etr7mwfefd77lfrd4a9avvru8pkmzypu6d4nu0jxrjkxzdqsqnyq7e"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "BOOOO",
-              "contract": "bostrom13v589qn2n2h7aqf3uzfa2qglf2cqgxl8t4ntfs6u66rzqfy9ln6szelnv7"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 10,
-              "logo": "",
-              "ticker": "AAA",
-              "contract": "bostrom1quce89l8clsn8s5tmq5sylg370h58xfnkwadx72crjv90jmetp4sf4l37n"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 10,
-              "logo": "",
-              "ticker": "AAC",
-              "contract": "bostrom1ktsva89ss04d0qwd6q60uc77w0ma5gkwd7ufflhhpmeam738y0eqhylyg2"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "PgN-t",
-              "contract": "bostrom14rs8gv8phhxtwjad096swkdd8sfg2s7c2xe55ses50spkwr585nsenkzh0"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "tttt",
-              "contract": "bostrom1ukhxlrtje0dt2n7k54m8l83rxjrta7fqwvzzhapgzafwzt38u8pqg3qket"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "PgN-t",
-              "contract": "bostrom1zkjgu5pdsswczdjg87v87wtyhavavnq99jnyngmn83x58kly49vsln9mkn"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "sss",
-              "contract": "bostrom1fe9ldmu9qy3pyx28esrn0g088jeqvs6jchat2m900fvnxt2wljvsac56ht"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "ddd",
-              "contract": "bostrom1kfem4ue4qn9p689ldye9t4seh077lz3ztr4zhjadxptjsaujxk5spqssdw"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "eee",
-              "contract": "bostrom1g6u7zm0gykqk7aklasatgtrld5heyfqmydvvu5ne6h2lq9zx69wswdm79m"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "zzz",
-              "contract": "bostrom1vvgyl5xndpqn3vgymjlwklv7kjmk3zwzf6r6ukakqk5qnzksktds9a58un"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "",
-              "ticker": "zzz",
-              "contract": "bostrom1jmechmr7w6kwqu8jcy5973rtllxgttyetarys60rtsu0g675mkjsuen7fn"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "{'url': 'https://ibb.co/xHjk38X'}",
-              "ticker": "TTT",
-              "contract": "bostrom1s5g4rehkansq4pamj42usczezqkchjke4j2kk7qm3a5vkejz0xuqy57rc4"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 0,
-              "logo": "{'url': 'https://drive.google.com/file/d/15edrK31IAn4CDjPnA7CoPXs9BUSqqsrG/view?usp=share_link'}",
-              "ticker": "ABC",
-              "contract": "bostrom1seeld9pqq0nxp3yt3wded4jf476y8vz77qmjj5zf8gwz3y59qu5s4af596"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 10,
-              "logo": "",
-              "ticker": "AAAC",
-              "contract": "bostrom10stecvwvxzkh3ah7y6j0kcwe3chmrg37zevjgjpz06sqx8vd5d6qeh0u08"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 6,
-              "logo": "{'url': 'https://ipfs.io/ipfs/QmcGtVuAzMs42McWpPLELab6xUM5dczruzqkM9ngEbx31f?filename=dd7213770ced500e719464c5053e88d3.jpg'}",
-              "ticker": "WGUT",
-              "contract": "bostrom1w4dff5myjyzymk8tkpjrzj6gnv352hcdpt2dszweqnff927a9xmq4qnw7u"
-            }
-          },
-          "coins": []
-        }
-      },
-      {
-        "type": "/cosmwasm.wasm.v1.MsgExecuteContract",
-        "value": {
-          "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-          "contract": "bostrom1969quzze7w7a79gy42cnus5t67sgmu6t2yw059arfyn8fzs3hpzs7zjfkx",
-          "execute_msg": {
-            "CreateEntry": {
-              "chain_id": "bostrom",
-              "channel": "",
-              "decimals": 6,
-              "logo": "",
-              "ticker": "COOL",
-              "contract": "bostrom1nwm9pjmfgmxgc4euyfps05p9pfde8vd4sm8pavy93eu9xquz27dsgyxtml"
             }
           },
           "coins": []

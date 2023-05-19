@@ -79,5 +79,11 @@
   },
   {
     "data_type": "desmos-ws"
+  },
+  {
+    "data_type": "mantle-rpc"
+  },
+  {
+    "data_type": "mantle-ws"
   }
 ]
