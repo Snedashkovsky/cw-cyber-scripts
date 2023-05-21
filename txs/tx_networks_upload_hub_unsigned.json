@@ -4,7 +4,7 @@
       {
         "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
         "contract": "bostrom1ka63rny987cfu79jpfaytn4rjepz4q8na4gtgdz83r79p0yy84gqy6kc8k",
-        "execute_msg": {
+        "msg": {
           "CreateEntry": {
             "chain_id": "bostrom",
             "genesis_hash": "QmYubyVNfghD4xCrTFj26zBwrF9s5GJhi1TmxvrwmJCipr",
@@ -15,13 +15,13 @@
             "unbonding_period": "691200"
           }
         },
-        "coins": [],
+        "funds": [],
         "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
       },
       {
         "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
         "contract": "bostrom1ka63rny987cfu79jpfaytn4rjepz4q8na4gtgdz83r79p0yy84gqy6kc8k",
-        "execute_msg": {
+        "msg": {
           "CreateEntry": {
             "chain_id": "space-pussy",
             "genesis_hash": "QmTR1k469ZNJdmhT2WY67A6fccpj1pRkHTmnZZtYpPDnH7",
@@ -32,13 +32,13 @@
             "unbonding_period": "2419200"
           }
         },
-        "coins": [],
+        "funds": [],
         "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
       },
       {
         "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
         "contract": "bostrom1ka63rny987cfu79jpfaytn4rjepz4q8na4gtgdz83r79p0yy84gqy6kc8k",
-        "execute_msg": {
+        "msg": {
           "CreateEntry": {
             "chain_id": "cosmoshub-4",
             "genesis_hash": "Qmc54DreioPpPDUdJW6bBTYUKepmcPsscfqsfFcFmTaVig",
@@ -49,13 +49,13 @@
             "unbonding_period": "1814400"
           }
         },
-        "coins": [],
+        "funds": [],
         "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
       },
       {
         "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
         "contract": "bostrom1ka63rny987cfu79jpfaytn4rjepz4q8na4gtgdz83r79p0yy84gqy6kc8k",
-        "execute_msg": {
+        "msg": {
           "CreateEntry": {
             "chain_id": "osmosis-1",
             "genesis_hash": "QmXRvBT3hgoXwwPqbK6a2sXUuArGM8wPyo1ybskyyUwUxs",
@@ -66,13 +66,13 @@
             "unbonding_period": "1209600"
           }
         },
-        "coins": [],
+        "funds": [],
         "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
       },
       {
         "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
         "contract": "bostrom1ka63rny987cfu79jpfaytn4rjepz4q8na4gtgdz83r79p0yy84gqy6kc8k",
-        "execute_msg": {
+        "msg": {
           "CreateEntry": {
             "chain_id": "juno-1",
             "genesis_hash": "QmPJ2Q4D6GDbbU68ga5jQJ9AXpv7WcM63QEVRup6LMjzsb",
@@ -83,13 +83,13 @@
             "unbonding_period": "2419200"
           }
         },
-        "coins": [],
+        "funds": [],
         "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
       },
       {
         "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
         "contract": "bostrom1ka63rny987cfu79jpfaytn4rjepz4q8na4gtgdz83r79p0yy84gqy6kc8k",
-        "execute_msg": {
+        "msg": {
           "CreateEntry": {
             "chain_id": "gravity-bridge-3",
             "genesis_hash": "Qmed9LHnN2ovM4BdiJ2RPecB99PVK9yfFEV5FpwdDNiVsJ",
@@ -100,13 +100,13 @@
             "unbonding_period": "1814400"
           }
         },
-        "coins": [],
+        "funds": [],
         "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
       },
       {
         "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
         "contract": "bostrom1ka63rny987cfu79jpfaytn4rjepz4q8na4gtgdz83r79p0yy84gqy6kc8k",
-        "execute_msg": {
+        "msg": {
           "CreateEntry": {
             "chain_id": "axelar-dojo-1",
             "genesis_hash": "QmZLQoafcmhLkYgZb7HMB15Fg6RfKs8Yro44tkrxwNBcTu",
@@ -117,13 +117,13 @@
             "unbonding_period": "604800"
           }
         },
-        "coins": [],
+        "funds": [],
         "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
       },
       {
         "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
         "contract": "bostrom1ka63rny987cfu79jpfaytn4rjepz4q8na4gtgdz83r79p0yy84gqy6kc8k",
-        "execute_msg": {
+        "msg": {
           "CreateEntry": {
             "chain_id": "evmos_9001-2",
             "genesis_hash": "QmYmcmveFYMdA1NRAvAa3hKM8HQRdiwfmYtf3GgyJGTMEa",
@@ -134,7 +134,7 @@
             "unbonding_period": "1209600"
           }
         },
-        "coins": [],
+        "funds": [],
         "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
       }
     ],

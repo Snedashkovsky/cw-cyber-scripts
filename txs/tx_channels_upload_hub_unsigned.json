@@ -4,7 +4,7 @@
       {
         "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
         "contract": "bostrom1jsc2h2t2r4vpytz0ashmvpt5pqnyqculjq9t9vwy2p5wcu64xytqmzcdvj",
-        "execute_msg": {
+        "msg": {
           "CreateEntry": {
             "active": "false",
             "destination_chain_id": "osmosis-1",
@@ -14,13 +14,13 @@
             "explorer_url": "https://mintscan.io/osmosis"
           }
         },
-        "coins": [],
+        "funds": [],
         "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
       },
       {
         "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
         "contract": "bostrom1jsc2h2t2r4vpytz0ashmvpt5pqnyqculjq9t9vwy2p5wcu64xytqmzcdvj",
-        "execute_msg": {
+        "msg": {
           "CreateEntry": {
             "active": "false",
             "destination_chain_id": "cosmoshub-4",
@@ -30,13 +30,13 @@
             "explorer_url": "https://mintscan.io/cosmos"
           }
         },
-        "coins": [],
+        "funds": [],
         "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
       },
       {
         "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
         "contract": "bostrom1jsc2h2t2r4vpytz0ashmvpt5pqnyqculjq9t9vwy2p5wcu64xytqmzcdvj",
-        "execute_msg": {
+        "msg": {
           "CreateEntry": {
             "active": "true",
             "destination_chain_id": "juno-1",
@@ -46,13 +46,13 @@
             "explorer_url": "https://mintscan.io/juno"
           }
         },
-        "coins": [],
+        "funds": [],
         "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
       },
       {
         "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
         "contract": "bostrom1jsc2h2t2r4vpytz0ashmvpt5pqnyqculjq9t9vwy2p5wcu64xytqmzcdvj",
-        "execute_msg": {
+        "msg": {
           "CreateEntry": {
             "active": "true",
             "destination_chain_id": "space-pussy",
@@ -62,13 +62,13 @@
             "explorer_url": "https://cyb.ai/oracle"
           }
         },
-        "coins": [],
+        "funds": [],
         "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
       },
       {
         "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
         "contract": "bostrom1jsc2h2t2r4vpytz0ashmvpt5pqnyqculjq9t9vwy2p5wcu64xytqmzcdvj",
-        "execute_msg": {
+        "msg": {
           "CreateEntry": {
             "active": "false",
             "destination_chain_id": "gravity-bridge-3",
@@ -78,13 +78,13 @@
             "explorer_url": "https://mintscan.io/gravity-bridge"
           }
         },
-        "coins": [],
+        "funds": [],
         "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
       },
       {
         "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
         "contract": "bostrom1jsc2h2t2r4vpytz0ashmvpt5pqnyqculjq9t9vwy2p5wcu64xytqmzcdvj",
-        "execute_msg": {
+        "msg": {
           "CreateEntry": {
             "active": "true",
             "destination_chain_id": "desmos-mainnet",
@@ -94,13 +94,13 @@
             "explorer_url": "https://mintscan.io/desmos"
           }
         },
-        "coins": [],
+        "funds": [],
         "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
       },
       {
         "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
         "contract": "bostrom1jsc2h2t2r4vpytz0ashmvpt5pqnyqculjq9t9vwy2p5wcu64xytqmzcdvj",
-        "execute_msg": {
+        "msg": {
           "CreateEntry": {
             "active": "true",
             "destination_chain_id": "axelar-dojo-1",
@@ -110,13 +110,13 @@
             "explorer_url": "https://mintscan.io/axelar"
           }
         },
-        "coins": [],
+        "funds": [],
         "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
       },
       {
         "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
         "contract": "bostrom1jsc2h2t2r4vpytz0ashmvpt5pqnyqculjq9t9vwy2p5wcu64xytqmzcdvj",
-        "execute_msg": {
+        "msg": {
           "CreateEntry": {
             "active": "false",
             "destination_chain_id": "phoenix-1",
@@ -126,13 +126,13 @@
             "explorer_url": ""
           }
         },
-        "coins": [],
+        "funds": [],
         "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
       },
       {
         "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
         "contract": "bostrom1jsc2h2t2r4vpytz0ashmvpt5pqnyqculjq9t9vwy2p5wcu64xytqmzcdvj",
-        "execute_msg": {
+        "msg": {
           "CreateEntry": {
             "active": "false",
             "destination_chain_id": "phoenix-1",
@@ -142,13 +142,13 @@
             "explorer_url": ""
           }
         },
-        "coins": [],
+        "funds": [],
         "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
       },
       {
         "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
         "contract": "bostrom1jsc2h2t2r4vpytz0ashmvpt5pqnyqculjq9t9vwy2p5wcu64xytqmzcdvj",
-        "execute_msg": {
+        "msg": {
           "CreateEntry": {
             "active": "false",
             "destination_chain_id": "eightball-1",
@@ -158,13 +158,13 @@
             "explorer_url": "https://explorer.nodestake.top/8ball"
           }
         },
-        "coins": [],
+        "funds": [],
         "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
       },
       {
         "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
         "contract": "bostrom1jsc2h2t2r4vpytz0ashmvpt5pqnyqculjq9t9vwy2p5wcu64xytqmzcdvj",
-        "execute_msg": {
+        "msg": {
           "CreateEntry": {
             "active": "true",
             "destination_chain_id": "osmosis-1",
@@ -174,13 +174,13 @@
             "explorer_url": "https://mintscan.io/osmosis"
           }
         },
-        "coins": [],
+        "funds": [],
         "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
       },
       {
         "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
         "contract": "bostrom1jsc2h2t2r4vpytz0ashmvpt5pqnyqculjq9t9vwy2p5wcu64xytqmzcdvj",
-        "execute_msg": {
+        "msg": {
           "CreateEntry": {
             "active": "false",
             "destination_chain_id": "osmosis-1",
@@ -190,13 +190,13 @@
             "explorer_url": "https://mintscan.io/osmosis"
           }
         },
-        "coins": [],
+        "funds": [],
         "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
       },
       {
         "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
         "contract": "bostrom1jsc2h2t2r4vpytz0ashmvpt5pqnyqculjq9t9vwy2p5wcu64xytqmzcdvj",
-        "execute_msg": {
+        "msg": {
           "CreateEntry": {
             "active": "false",
             "destination_chain_id": "cosmoshub-4",
@@ -206,13 +206,13 @@
             "explorer_url": "https://mintscan.io/cosmos"
           }
         },
-        "coins": [],
+        "funds": [],
         "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
       },
       {
         "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
         "contract": "bostrom1jsc2h2t2r4vpytz0ashmvpt5pqnyqculjq9t9vwy2p5wcu64xytqmzcdvj",
-        "execute_msg": {
+        "msg": {
           "CreateEntry": {
             "active": "false",
             "destination_chain_id": "cosmoshub-4",
@@ -222,13 +222,13 @@
             "explorer_url": "https://mintscan.io/cosmos"
           }
         },
-        "coins": [],
+        "funds": [],
         "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
       },
       {
         "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
         "contract": "bostrom1jsc2h2t2r4vpytz0ashmvpt5pqnyqculjq9t9vwy2p5wcu64xytqmzcdvj",
-        "execute_msg": {
+        "msg": {
           "CreateEntry": {
             "active": "false",
             "destination_chain_id": "gravity-bridge-3",
@@ -238,13 +238,13 @@
             "explorer_url": "https://mintscan.io/gravity-bridge"
           }
         },
-        "coins": [],
+        "funds": [],
         "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
       },
       {
         "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
         "contract": "bostrom1jsc2h2t2r4vpytz0ashmvpt5pqnyqculjq9t9vwy2p5wcu64xytqmzcdvj",
-        "execute_msg": {
+        "msg": {
           "CreateEntry": {
             "active": "true",
             "destination_chain_id": "gravity-bridge-3",
@@ -254,13 +254,13 @@
             "explorer_url": "https://mintscan.io/gravity-bridge"
           }
         },
-        "coins": [],
+        "funds": [],
         "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
       },
       {
         "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
         "contract": "bostrom1jsc2h2t2r4vpytz0ashmvpt5pqnyqculjq9t9vwy2p5wcu64xytqmzcdvj",
-        "execute_msg": {
+        "msg": {
           "CreateEntry": {
             "active": "true",
             "destination_chain_id": "cosmoshub-4",
@@ -270,13 +270,13 @@
             "explorer_url": "https://mintscan.io/cosmos"
           }
         },
-        "coins": [],
+        "funds": [],
         "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
       },
       {
         "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
         "contract": "bostrom1jsc2h2t2r4vpytz0ashmvpt5pqnyqculjq9t9vwy2p5wcu64xytqmzcdvj",
-        "execute_msg": {
+        "msg": {
           "CreateEntry": {
             "active": "true",
             "destination_chain_id": "evmos_9001-2",
@@ -286,7 +286,7 @@
             "explorer_url": "https://mintscan.io/evmos"
           }
         },
-        "coins": [],
+        "funds": [],
         "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
       }
     ],

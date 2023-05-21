@@ -30,12 +30,14 @@ def Error_Handler(func):
     return Inner_Function
 
 
-def instantiate_contract(init_query: str, contract_code_id: str, contract_label: str, amount: str = '',
-                         from_address: str = '$WALLET', display_data: bool = False) -> str:
+def instantiate_contract(init_query: str, contract_code_id: str, contract_label: str,
+                         contract_admin: Optional[str] = None, amount: str = '', from_address: str = '$WALLET',
+                         display_data: bool = False) -> str:
     _init_output, _init_error = execute_bash(
         f'''INIT='{init_query}' \
             && cyber tx wasm instantiate {contract_code_id} "$INIT" --from={from_address} \
             {'--amount=' + amount + 'boot' if amount else ''} --label="{contract_label}" \
+            {'--admin=' + contract_admin if contract_admin else '--no-admin'} \
             -y --gas=3500000 --broadcast-mode=block -o=json --chain-id={CHAIN_ID} --node={NODE_RPC_URL}''',
         shell=True)
     if display_data:
