@@ -90,25 +90,28 @@ def query_contract(query: str, contract_address: str, display_data: bool = False
 
 def instantiate_contract_unsigned_tx(
         init_query: str, contract_code_id: str, contract_label: str, amount: str = '',
-        from_address: str = '$WALLET', display_data: bool = False) -> bool:
-    tx_file_name = f'txs/code_{contract_code_id}_{contract_label.replace(" ", "_")}.json'
-    signed_tx_file_name = f'txs/signed_code_{contract_code_id}_{contract_label.replace(" ", "_")}.json'
+        from_address: str = '$WALLET', contract_admin: Optional[str] = None, display_data: bool = False) -> bool:
+    unsigned_tx_file_name = \
+        f'txs/tx_instantiate_code_{contract_code_id}_{contract_label.replace(" ", "_")}_unsigned.json'
+    signed_tx_file_name = \
+        f'txs/tx_instantiate_signed_code_{contract_code_id}_{contract_label.replace(" ", "_")}_signed.json'
     _init_output, _init_error = execute_bash(
         f'''INIT='{init_query}' \
             && cyber tx wasm instantiate {contract_code_id} "$INIT" --from={from_address} \
-            --admin={from_address} {'--amount=' + amount + 'boot' if amount else ''} \
+            {'--admin=' + contract_admin if contract_admin else '--no-admin'} \
+            {'--amount=' + amount + 'boot' if amount else ''} \
             --label="{contract_label}" -y --gas=3500000 --chain-id={CHAIN_ID} --node={NODE_RPC_URL} \
-            --generate-only > {tx_file_name}''',
+            --generate-only > {unsigned_tx_file_name}''',
         shell=True)
-    print(f'{tx_file_name}'
-          f'\n\n\tcyber tx sign {tx_file_name} --from={from_address} '
+    print(f'{unsigned_tx_file_name}'
+          f'\n\n\tcyber tx sign {unsigned_tx_file_name} --from={from_address} '
           f'--output-document={signed_tx_file_name} '
           f'--chain-id={CHAIN_ID} --ledger --node={NODE_RPC_URL}'
           f'\n\n\tcyber tx broadcast {signed_tx_file_name} --chain-id={CHAIN_ID} '
           f'--broadcast-mode=block --node={NODE_RPC_URL}\n')
     if display_data:
         try:
-            with open(tx_file_name, 'r') as tx_file:
+            with open(unsigned_tx_file_name, 'r') as tx_file:
                 print(json.dumps(json.loads(tx_file.read()), indent=4, sort_keys=True))
         except json.JSONDecodeError:
             print(_init_output)
