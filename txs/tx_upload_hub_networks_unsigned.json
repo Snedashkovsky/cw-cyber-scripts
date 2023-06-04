@@ -94,7 +94,7 @@
             "chain_id": "gravity-bridge-3",
             "genesis_hash": "Qmed9LHnN2ovM4BdiJ2RPecB99PVK9yfFEV5FpwdDNiVsJ",
             "logo": "QmQotGqeEKQLkssVx3yKuGqkcS6awFzgZLwnoyycqzffmL",
-            "name": "gravity bridge",
+            "name": "gravity",
             "prefix": "gravity",
             "protocol": "cosmos-rpc",
             "unbonding_period": "1814400"
