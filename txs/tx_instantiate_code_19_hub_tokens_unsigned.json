@@ -3,7 +3,7 @@
     "messages": [
       {
         "@type": "/cosmwasm.wasm.v1.MsgInstantiateContract",
-        "sender": "bostrom1cj8j6pc3nda8v708j3s4a6gq2jrnue7j857m9t",
+        "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
         "admin": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
         "code_id": "19",
         "label": "hub tokens",

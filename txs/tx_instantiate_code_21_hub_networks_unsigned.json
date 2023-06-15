@@ -5,8 +5,8 @@
         "@type": "/cosmwasm.wasm.v1.MsgInstantiateContract",
         "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
         "admin": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
-        "code_id": "11",
-        "label": "hub channels",
+        "code_id": "21",
+        "label": "hub networks",
         "msg": {
           "owner": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t"
         },
