@@ -7,7 +7,7 @@
         "msg": {
           "CreateEntry": {
             "chain_id": "bostrom",
-            "channel": "",
+            "channel_id": "",
             "decimals": "0",
             "logo": "QmaFs8AjTfNy6XFq8xb6boN1eC4nrznaPnvytJtq3FHnkf",
             "ticker": "BOOT",
@@ -23,7 +23,7 @@
         "msg": {
           "CreateEntry": {
             "chain_id": "bostrom",
-            "channel": "",
+            "channel_id": "",
             "decimals": "0",
             "logo": "QmZDWdXXBgJJ5QEvc68xeaJhk3dwJgsVQnSjJnoEtCBRrK",
             "ticker": "H",
@@ -39,7 +39,7 @@
         "msg": {
           "CreateEntry": {
             "chain_id": "bostrom",
-            "channel": "channel-2",
+            "channel_id": "channel-2",
             "decimals": "6",
             "logo": "QmdbiuCkCGiFV8aaUVyJTpVMLj97DLvF8vbM1mf73xRsVJ",
             "ticker": "OSMO",
@@ -55,7 +55,7 @@
         "msg": {
           "CreateEntry": {
             "chain_id": "bostrom",
-            "channel": "channel-8",
+            "channel_id": "channel-8",
             "decimals": "6",
             "logo": "Qmb5L5ZwJSt22Vra9jNph7aSFKqfVW8f4HVWqNU15qsqDX",
             "ticker": "ATOM",
@@ -71,7 +71,7 @@
         "msg": {
           "CreateEntry": {
             "chain_id": "bostrom",
-            "channel": "channel-11",
+            "channel_id": "channel-11",
             "decimals": "3",
             "logo": "QmTBHnJ27sADmHuFdaxo5i1m9Jvo988MUQP3Yp9Ph8Ua27",
             "ticker": "A",
@@ -87,7 +87,7 @@
         "msg": {
           "CreateEntry": {
             "chain_id": "bostrom",
-            "channel": "channel-11",
+            "channel_id": "channel-11",
             "decimals": "0",
             "logo": "QmVdamuwvpDUENhsGH5RGP7Dx4redrCFCM3kuy5hNFvo9r",
             "ticker": "PUSSY",
@@ -103,7 +103,7 @@
         "msg": {
           "CreateEntry": {
             "chain_id": "bostrom",
-            "channel": "channel-11",
+            "channel_id": "channel-11",
             "decimals": "3",
             "logo": "QmWgPPn5CVYroJfvZVqnd4YzH3iqNEkhCLAuQS6jLs8nxZ",
             "ticker": "V",
@@ -119,7 +119,7 @@
         "msg": {
           "CreateEntry": {
             "chain_id": "bostrom",
-            "channel": "channel-9",
+            "channel_id": "channel-9",
             "decimals": "6",
             "logo": "QmNcoUHaACiZ8mM89qvA3spsBebbrQWtGNyoQcRSoJiFPF",
             "ticker": "EVMOS",
@@ -135,7 +135,7 @@
         "msg": {
           "CreateEntry": {
             "chain_id": "bostrom",
-            "channel": "channel-10",
+            "channel_id": "channel-10",
             "decimals": "6",
             "logo": "QmZyWYqKU4ny1gqSz16CmfrHJKS4zkybjS2DDQxs7YZPV9",
             "ticker": "JUNO",
@@ -151,7 +151,7 @@
         "msg": {
           "CreateEntry": {
             "chain_id": "bostrom",
-            "channel": "channel-11",
+            "channel_id": "channel-11",
             "decimals": "0",
             "logo": "QmZDWdXXBgJJ5QEvc68xeaJhk3dwJgsVQnSjJnoEtCBRrK",
             "ticker": "LP",
@@ -167,7 +167,7 @@
         "msg": {
           "CreateEntry": {
             "chain_id": "bostrom",
-            "channel": "channel-13",
+            "channel_id": "channel-13",
             "decimals": "6",
             "logo": "QmeYujkRMAXxh3JDrtT1B3NvCQL6tAuzbF8UkF6KjrJH1B",
             "ticker": "DSM",
@@ -183,7 +183,7 @@
         "msg": {
           "CreateEntry": {
             "chain_id": "bostrom",
-            "channel": "",
+            "channel_id": "",
             "decimals": "3",
             "logo": "QmTBHnJ27sADmHuFdaxo5i1m9Jvo988MUQP3Yp9Ph8Ua27",
             "ticker": "A",
@@ -199,7 +199,7 @@
         "msg": {
           "CreateEntry": {
             "chain_id": "bostrom",
-            "channel": "",
+            "channel_id": "",
             "decimals": "3",
             "logo": "QmWgPPn5CVYroJfvZVqnd4YzH3iqNEkhCLAuQS6jLs8nxZ",
             "ticker": "V",
@@ -215,7 +215,7 @@
         "msg": {
           "CreateEntry": {
             "chain_id": "bostrom",
-            "channel": "",
+            "channel_id": "",
             "decimals": "0",
             "logo": "QmaFDLBuEf3Uo1gYCY3CciGwgXxcc5pEVKwpVCfCcrJFyp",
             "ticker": "TOCYB",
@@ -231,7 +231,7 @@
         "msg": {
           "CreateEntry": {
             "chain_id": "space-pussy",
-            "channel": "",
+            "channel_id": "",
             "decimals": "0",
             "logo": "QmZDWdXXBgJJ5QEvc68xeaJhk3dwJgsVQnSjJnoEtCBRrK",
             "ticker": "LP",
@@ -247,7 +247,7 @@
         "msg": {
           "CreateEntry": {
             "chain_id": "space-pussy",
-            "channel": "",
+            "channel_id": "",
             "decimals": "3",
             "logo": "QmTBHnJ27sADmHuFdaxo5i1m9Jvo988MUQP3Yp9Ph8Ua27",
             "ticker": "A",
@@ -263,7 +263,7 @@
         "msg": {
           "CreateEntry": {
             "chain_id": "space-pussy",
-            "channel": "",
+            "channel_id": "",
             "decimals": "3",
             "logo": "QmWgPPn5CVYroJfvZVqnd4YzH3iqNEkhCLAuQS6jLs8nxZ",
             "ticker": "V",
@@ -279,7 +279,7 @@
         "msg": {
           "CreateEntry": {
             "chain_id": "space-pussy",
-            "channel": "",
+            "channel_id": "",
             "decimals": "0",
             "logo": "QmVdamuwvpDUENhsGH5RGP7Dx4redrCFCM3kuy5hNFvo9r",
             "ticker": "PUSSY",
