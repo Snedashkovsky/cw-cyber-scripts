@@ -32,7 +32,7 @@
     "explorer_url": "https:\/\/cyb.ai\/network\/bostrom\/tx\/{txHash}"
   },
   {
-    "active": "false",
+    "active": "true",
     "destination_chain_id": "gravity-bridge-3",
     "destination_channel_id": "channel-103",
     "source_chain_id": "bostrom",
@@ -120,7 +120,7 @@
     "explorer_url": "https:\/\/mintscan.io\/gravity-bridge\/txs\/{txHash}"
   },
   {
-    "active": "true",
+    "active": "false",
     "destination_chain_id": "gravity-bridge-3",
     "destination_channel_id": "channel-78",
     "source_chain_id": "bostrom",
