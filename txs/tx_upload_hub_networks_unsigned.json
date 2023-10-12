@@ -1,0 +1,159 @@
+{
+  "body": {
+    "messages": [
+      {
+        "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
+        "contract": "bostrom1ka63rny987cfu79jpfaytn4rjepz4q8na4gtgdz83r79p0yy84gqy6kc8k",
+        "msg": {
+          "CreateEntry": {
+            "chain_id": "bostrom",
+            "genesis_hash": "QmYubyVNfghD4xCrTFj26zBwrF9s5GJhi1TmxvrwmJCipr",
+            "logo": "QmaFs8AjTfNy6XFq8xb6boN1eC4nrznaPnvytJtq3FHnkf",
+            "name": "bostrom",
+            "prefix": "bostrom",
+            "protocol": "cyber-rpc",
+            "unbonding_period": "691200"
+          }
+        },
+        "funds": [],
+        "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
+      },
+      {
+        "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
+        "contract": "bostrom1ka63rny987cfu79jpfaytn4rjepz4q8na4gtgdz83r79p0yy84gqy6kc8k",
+        "msg": {
+          "CreateEntry": {
+            "chain_id": "space-pussy",
+            "genesis_hash": "QmTR1k469ZNJdmhT2WY67A6fccpj1pRkHTmnZZtYpPDnH7",
+            "logo": "QmVdamuwvpDUENhsGH5RGP7Dx4redrCFCM3kuy5hNFvo9r",
+            "name": "space-pussy",
+            "prefix": "pussy",
+            "protocol": "cyber-rpc",
+            "unbonding_period": "2419200"
+          }
+        },
+        "funds": [],
+        "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
+      },
+      {
+        "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
+        "contract": "bostrom1ka63rny987cfu79jpfaytn4rjepz4q8na4gtgdz83r79p0yy84gqy6kc8k",
+        "msg": {
+          "CreateEntry": {
+            "chain_id": "cosmoshub-4",
+            "genesis_hash": "Qmc54DreioPpPDUdJW6bBTYUKepmcPsscfqsfFcFmTaVig",
+            "logo": "Qmb5L5ZwJSt22Vra9jNph7aSFKqfVW8f4HVWqNU15qsqDX",
+            "name": "cosmos",
+            "prefix": "cosmos",
+            "protocol": "cosmos-rpc",
+            "unbonding_period": "1814400"
+          }
+        },
+        "funds": [],
+        "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
+      },
+      {
+        "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
+        "contract": "bostrom1ka63rny987cfu79jpfaytn4rjepz4q8na4gtgdz83r79p0yy84gqy6kc8k",
+        "msg": {
+          "CreateEntry": {
+            "chain_id": "osmosis-1",
+            "genesis_hash": "QmXRvBT3hgoXwwPqbK6a2sXUuArGM8wPyo1ybskyyUwUxs",
+            "logo": "QmdbiuCkCGiFV8aaUVyJTpVMLj97DLvF8vbM1mf73xRsVJ",
+            "name": "osmosis",
+            "prefix": "osmo",
+            "protocol": "cosmos-rpc",
+            "unbonding_period": "1209600"
+          }
+        },
+        "funds": [],
+        "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
+      },
+      {
+        "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
+        "contract": "bostrom1ka63rny987cfu79jpfaytn4rjepz4q8na4gtgdz83r79p0yy84gqy6kc8k",
+        "msg": {
+          "CreateEntry": {
+            "chain_id": "juno-1",
+            "genesis_hash": "QmPJ2Q4D6GDbbU68ga5jQJ9AXpv7WcM63QEVRup6LMjzsb",
+            "logo": "QmZyWYqKU4ny1gqSz16CmfrHJKS4zkybjS2DDQxs7YZPV9",
+            "name": "juno",
+            "prefix": "juno",
+            "protocol": "cosmos-rpc",
+            "unbonding_period": "2419200"
+          }
+        },
+        "funds": [],
+        "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
+      },
+      {
+        "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
+        "contract": "bostrom1ka63rny987cfu79jpfaytn4rjepz4q8na4gtgdz83r79p0yy84gqy6kc8k",
+        "msg": {
+          "CreateEntry": {
+            "chain_id": "gravity-bridge-3",
+            "genesis_hash": "Qmed9LHnN2ovM4BdiJ2RPecB99PVK9yfFEV5FpwdDNiVsJ",
+            "logo": "QmQotGqeEKQLkssVx3yKuGqkcS6awFzgZLwnoyycqzffmL",
+            "name": "gravity",
+            "prefix": "gravity",
+            "protocol": "cosmos-rpc",
+            "unbonding_period": "1814400"
+          }
+        },
+        "funds": [],
+        "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
+      },
+      {
+        "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
+        "contract": "bostrom1ka63rny987cfu79jpfaytn4rjepz4q8na4gtgdz83r79p0yy84gqy6kc8k",
+        "msg": {
+          "CreateEntry": {
+            "chain_id": "axelar-dojo-1",
+            "genesis_hash": "QmZLQoafcmhLkYgZb7HMB15Fg6RfKs8Yro44tkrxwNBcTu",
+            "logo": "QmW389aWTLgDS3q6DjWuP3VBGzfi3s1seAj7GqpkCpSdV4",
+            "name": "axelar",
+            "prefix": "axelar",
+            "protocol": "cosmos-rpc",
+            "unbonding_period": "604800"
+          }
+        },
+        "funds": [],
+        "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
+      },
+      {
+        "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
+        "contract": "bostrom1ka63rny987cfu79jpfaytn4rjepz4q8na4gtgdz83r79p0yy84gqy6kc8k",
+        "msg": {
+          "CreateEntry": {
+            "chain_id": "evmos_9001-2",
+            "genesis_hash": "QmYmcmveFYMdA1NRAvAa3hKM8HQRdiwfmYtf3GgyJGTMEa",
+            "logo": "QmNcoUHaACiZ8mM89qvA3spsBebbrQWtGNyoQcRSoJiFPF",
+            "name": "evmos",
+            "prefix": "evmos",
+            "protocol": "cosmos-rpc",
+            "unbonding_period": "1209600"
+          }
+        },
+        "funds": [],
+        "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
+      }
+    ],
+    "memo": "add entry",
+    "timeout_height": "0"
+  },
+  "auth_info": {
+    "signer_infos": [],
+    "fee": {
+      "gas_limit": "20000000",
+      "amount": [
+        {
+          "denom": "boot",
+          "amount": "0"
+        }
+      ],
+      "payer": "",
+      "granter": ""
+    }
+  },
+  "signatures": []
+}

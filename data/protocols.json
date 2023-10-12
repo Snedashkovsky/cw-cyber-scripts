@@ -1,0 +1,11 @@
+[
+  {
+    "data_type": "ipfs-gateway"
+  },
+  {
+    "data_type": "cyber-rpc"
+  },
+  {
+    "data_type": "cosmos-rpc"
+  }
+]

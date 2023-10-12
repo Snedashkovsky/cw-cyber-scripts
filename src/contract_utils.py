@@ -3,6 +3,8 @@ import base58
 import hashlib
 import pandas as pd
 from aiohttp import ClientConnectorError
+from ipfshttpclient import Client as IPFSClient
+from typing import Optional
 
 from cyber_sdk.client.lcd import LCDClient
 from cyber_sdk.client.lcd.api.tx import CreateTxOptions
@@ -28,13 +30,16 @@ def Error_Handler(func):
     return Inner_Function
 
 
-def instantiate_contract(init_query: str, contract_code_id: str, contract_label: str, amount: str = '',
-                         from_address: str = '$WALLET', display_data: bool = False) -> str:
+def instantiate_contract(init_query: str, contract_code_id: str, contract_label: str,
+                         contract_admin: Optional[str] = None, amount: str = '', from_address: str = '$WALLET',
+                         display_data: bool = False) -> str:
     _init_output, _init_error = execute_bash(
         f'''INIT='{init_query}' \
-            && cyber tx wasm instantiate {contract_code_id} "$INIT" --from {from_address} \
-            {'--amount ' + amount + 'boot' if amount else ''} --label "{contract_label}" \
-            -y --gas 3500000 --broadcast-mode block -o json --chain-id={CHAIN_ID} --node={NODE_RPC_URL}''')
+            && cyber tx wasm instantiate {contract_code_id} "$INIT" --from={from_address} \
+            {'--amount=' + amount + 'boot' if amount else ''} --label="{contract_label}" \
+            {'--admin=' + contract_admin if contract_admin else '--no-admin'} \
+            -y --gas=3500000 --broadcast-mode=block -o=json --chain-id={CHAIN_ID} --node={NODE_RPC_URL}''',
+        shell=True)
     if display_data:
         try:
             print(json.dumps(json.loads(_init_output), indent=4, sort_keys=True))
@@ -53,8 +58,9 @@ def execute_contract_bash(execute_query: str, contract_address: str, from_addres
     _execute_output, _execute_error = execute_bash(
         f'''EXECUTE='{execute_query}' \
             && CONTRACT="{contract_address}" \
-            && cyber tx wasm execute $CONTRACT "$EXECUTE" --from {from_address} --broadcast-mode block -o json -y \
-            --gas={gas} --chain-id={CHAIN_ID} --node={NODE_RPC_URL}''')
+            && cyber tx wasm execute $CONTRACT "$EXECUTE" --from={from_address} --broadcast-mode=block -o=json -y \
+            --gas={gas} --chain-id={CHAIN_ID} --node={NODE_RPC_URL}''',
+        shell=True)
     if display_data:
         try:
             print(json.dumps(json.loads(_execute_output), indent=4, sort_keys=True))
@@ -68,8 +74,9 @@ def execute_contract_bash(execute_query: str, contract_address: str, from_addres
 def query_contract(query: str, contract_address: str, display_data: bool = False) -> json:
     _execute_output, _execute_error = execute_bash(
         f'''QUERY='{query}' \
-            && cyber query wasm contract-state smart {contract_address} "$QUERY" -o json \
-            --chain-id={CHAIN_ID} --node={NODE_RPC_URL}''')
+            && cyber query wasm contract-state smart {contract_address} "$QUERY" -o=json \
+            --chain-id={CHAIN_ID} --node={NODE_RPC_URL}''',
+        shell=True)
     try:
         if display_data:
             print(json.dumps(json.loads(_execute_output), indent=4, sort_keys=True))
@@ -83,24 +90,28 @@ def query_contract(query: str, contract_address: str, display_data: bool = False
 
 def instantiate_contract_unsigned_tx(
         init_query: str, contract_code_id: str, contract_label: str, amount: str = '',
-        from_address: str = '$WALLET', display_data: bool = False) -> bool:
-    tx_file_name = f'txs/code_{contract_code_id}_{contract_label.replace(" ", "_")}.json'
-    signed_tx_file_name = f'txs/signed_code_{contract_code_id}_{contract_label.replace(" ", "_")}.json'
+        from_address: str = '$WALLET', contract_admin: Optional[str] = None, display_data: bool = False) -> bool:
+    unsigned_tx_file_name = \
+        f'txs/tx_instantiate_code_{contract_code_id}_{contract_label.replace(" ", "_")}_unsigned.json'
+    signed_tx_file_name = \
+        f'txs/tx_instantiate_signed_code_{contract_code_id}_{contract_label.replace(" ", "_")}_signed.json'
     _init_output, _init_error = execute_bash(
         f'''INIT='{init_query}' \
-            && cyber tx wasm instantiate {contract_code_id} "$INIT" --from {from_address} \
-            --admin {from_address} {'--amount ' + amount + 'boot' if amount else ''} \
-            --label "{contract_label}" -y --gas 3500000 --chain-id={CHAIN_ID} --node={NODE_RPC_URL} \
-            --generate-only > {tx_file_name}''')
-    print(f'{tx_file_name}'
-          f'\n\n\tcyber tx sign {tx_file_name} --from={from_address} '
+            && cyber tx wasm instantiate {contract_code_id} "$INIT" --from={from_address} \
+            {'--admin=' + contract_admin if contract_admin else '--no-admin'} \
+            {'--amount=' + amount + 'boot' if amount else ''} \
+            --label="{contract_label}" -y --gas=3500000 --chain-id={CHAIN_ID} --node={NODE_RPC_URL} \
+            --generate-only > {unsigned_tx_file_name}''',
+        shell=True)
+    print(f'{unsigned_tx_file_name}'
+          f'\n\n\tcyber tx sign {unsigned_tx_file_name} --from={from_address} '
           f'--output-document={signed_tx_file_name} '
-          f'--chain-id={CHAIN_ID} --ledger --node {NODE_RPC_URL}'
+          f'--chain-id={CHAIN_ID} --ledger --node={NODE_RPC_URL}'
           f'\n\n\tcyber tx broadcast {signed_tx_file_name} --chain-id={CHAIN_ID} '
-          f'--broadcast-mode block --node {NODE_RPC_URL}\n')
+          f'--broadcast-mode=block --node={NODE_RPC_URL}\n')
     if display_data:
         try:
-            with open(tx_file_name, 'r') as tx_file:
+            with open(unsigned_tx_file_name, 'r') as tx_file:
                 print(json.dumps(json.loads(tx_file.read()), indent=4, sort_keys=True))
         except json.JSONDecodeError:
             print(_init_output)
@@ -111,24 +122,23 @@ def instantiate_contract_unsigned_tx(
 
 
 def execute_contract_unsigned_tx(
-        execute_query: str, contract_address: str, from_address: str = '$WALLET', gas: int = 300000,
-        action_name: str = 'execute', display_data: bool = False) -> str:
-    tx_file_name = f'txs/{contract_address[-4:]}_{action_name}.json'
-    signed_tx_file_name = f'txs/signed_{contract_address[-4:]}_{action_name}.json'
+        execute_query: str, contract_address: str, tx_unsigned_file_name: str, tx_signed_file_name: str,
+        from_address: str = '$WALLET', gas: int = 400000, display_data: bool = False) -> str:
     _execute_output, _execute_error = execute_bash(
         f'''EXECUTE='{execute_query}' \
             && CONTRACT="{contract_address}" \
-            && cyber tx wasm execute $CONTRACT "$EXECUTE" --from {from_address} -y \
-            --gas={gas} --chain-id={CHAIN_ID} --node={NODE_RPC_URL} --generate-only > {tx_file_name}''')
-    print(f'{tx_file_name}'
-          f'\n\n\tcyber tx sign {tx_file_name} --from={from_address} '
-          f'--output-document={signed_tx_file_name} '
-          f'--chain-id={CHAIN_ID} --ledger --node {NODE_RPC_URL}'
-          f'\n\n\tcyber tx broadcast {signed_tx_file_name} --chain-id={CHAIN_ID} '
-          f'--broadcast-mode block --node {NODE_RPC_URL}\n')
+            && cyber tx wasm execute $CONTRACT "$EXECUTE" --from={from_address} -y \
+            --gas={gas} --chain-id={CHAIN_ID} --node={NODE_RPC_URL} --generate-only > {tx_unsigned_file_name}''',
+        shell=True)
+    print(f'{tx_unsigned_file_name}'
+          f'\n\n\tcyber tx sign {tx_unsigned_file_name} --from={from_address} '
+          f'--output-document={tx_signed_file_name} '
+          f'--chain-id={CHAIN_ID} --ledger --node={NODE_RPC_URL}'
+          f'\n\n\tcyber tx broadcast {tx_signed_file_name} --chain-id={CHAIN_ID} '
+          f'--broadcast-mode=block --node={NODE_RPC_URL}\n')
     if display_data:
         try:
-            with open(tx_file_name, 'r') as tx_file:
+            with open(tx_unsigned_file_name, 'r') as tx_file:
                 print(json.dumps(json.loads(tx_file.read()), indent=4, sort_keys=True))
         except json.JSONDecodeError:
             print(_execute_output)
@@ -168,10 +178,11 @@ def get_proofs(input_file: str,
 
 class ContractUtils:
 
-    def __init__(self, ipfs_client, address_dict: dict, lcd_client: LCDClient = LCD_CLIENT):
-        self.ipfs_client = ipfs_client
+    def __init__(self, address_dict: dict,
+                 lcd_client: LCDClient = LCD_CLIENT, ipfs_client: Optional[IPFSClient] = None):
         self.address_dict = address_dict
         self.name_dict = {v: k for k, v in address_dict.items()}
+        self.ipfs_client = ipfs_client
         self.lcd_client = lcd_client
 
     def set_address_dict(self, address_dict):
@@ -303,8 +314,8 @@ class ContractUtils:
         except KeyError:
             return contract_address
 
-    def get_name_from_cid(self, ipfs_hash: str, row=None) -> str:
-        if row is None:
+    def get_name_from_cid(self, ipfs_hash: str, row: Optional[pd.Series] = None) -> str:
+        if row is None or self.ipfs_client is None:
             return ipfs_hash
         cid_name_dict = {
             row['avatar']: 'Avatar',

@@ -1,0 +1,56 @@
+{
+  "body": {
+    "messages": [
+      {
+        "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
+        "contract": "bostrom1latjl5jde9x7ndu0c9qr4ceyzvyr0ngs95fydqhx8xa6t0md7h4sryuzz0",
+        "msg": {
+          "CreateEntry": {
+            "data_type": "ipfs-gateway"
+          }
+        },
+        "funds": [],
+        "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
+      },
+      {
+        "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
+        "contract": "bostrom1latjl5jde9x7ndu0c9qr4ceyzvyr0ngs95fydqhx8xa6t0md7h4sryuzz0",
+        "msg": {
+          "CreateEntry": {
+            "data_type": "cyber-rpc"
+          }
+        },
+        "funds": [],
+        "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
+      },
+      {
+        "sender": "bostrom1d8754xqa9245pctlfcyv8eah468neqzn3a0y0t",
+        "contract": "bostrom1latjl5jde9x7ndu0c9qr4ceyzvyr0ngs95fydqhx8xa6t0md7h4sryuzz0",
+        "msg": {
+          "CreateEntry": {
+            "data_type": "cosmos-rpc"
+          }
+        },
+        "funds": [],
+        "@type": "/cosmwasm.wasm.v1.MsgExecuteContract"
+      }
+    ],
+    "memo": "add entry",
+    "timeout_height": "0"
+  },
+  "auth_info": {
+    "signer_infos": [],
+    "fee": {
+      "gas_limit": "20000000",
+      "amount": [
+        {
+          "denom": "boot",
+          "amount": "0"
+        }
+      ],
+      "payer": "",
+      "granter": ""
+    }
+  },
+  "signatures": []
+}
