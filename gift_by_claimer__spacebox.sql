@@ -10,7 +10,7 @@ FROM (SELECT signer,
              round(sumIf(gift_amount_gboot, startsWith(gift_claiming_address, 'cosmos')), 1) as claim_cosmos_gboot,
              round(sumIf(gift_amount_gboot, startsWith(gift_claiming_address, 'osmo')), 1)   as claim_osmosis_gboot,
              round(sumIf(gift_amount_gboot, startsWith(gift_claiming_address, 'terra')), 1)  as claim_terra_gboot,
-             claim_gboot * 0.29                                                              as releasable_gboot,
+             claim_gboot * 0.34 - release_gboot                                              as releasable_gboot,
              round(sum(released_gboot), 1)                                                   as release_gboot
       FROM (SELECT signer,
                    arrayZip(JSONExtractArrayRaw(messages), JSONExtractArrayRaw(raw_log)) as messages_logs_zip,
