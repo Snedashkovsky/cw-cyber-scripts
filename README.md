@@ -42,3 +42,7 @@ generate_merkle_proofs && yarn
 ### [Pussy Gift calculation](pussygift_final_merkle_tree.ipynb)
 
 ### [Content-Type and Type-Content Subgraphs](upload_content_type_subgraphs.ipynb)
+
+## Analytics
+[Gift Analytics by Date SQL](gift_by_date__spacebox.sql) script for [spacebox](https://github.com/bro-n-bro/spacebox)
+[Gift Analytics by Claimer SQL](gift_by_claimer__spacebox.sql) script for [spacebox](https://github.com/bro-n-bro/spacebox)
