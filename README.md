@@ -44,4 +44,5 @@ generate_merkle_proofs && yarn
 ### [Content-Type and Type-Content Subgraphs](upload_content_type_subgraphs.ipynb)
 
 ## Analytics
-[Gift Analytics SQL](gift_analytics__spacebox.sql) script for [spacebox](https://github.com/bro-n-bro/spacebox)
+[Gift Analytics by Date SQL](gift_by_date__spacebox.sql) script for [spacebox](https://github.com/bro-n-bro/spacebox)
+[Gift Analytics by Claimer SQL](gift_by_claimer__spacebox.sql) script for [spacebox](https://github.com/bro-n-bro/spacebox)
