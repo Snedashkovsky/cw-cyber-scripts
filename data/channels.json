@@ -16,7 +16,7 @@
     "explorer_url": "https:\/\/mintscan.io\/cosmos\/txs\/{txHash}"
   },
   {
-    "active": "true",
+    "active": "false",
     "destination_chain_id": "juno-1",
     "destination_channel_id": "channel-93",
     "source_chain_id": "bostrom",
