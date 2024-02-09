@@ -135,4 +135,5 @@ dmypy.json
 
 txs/*.json
 data/*
+*/data/*
 temp/*
