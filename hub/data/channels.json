@@ -32,7 +32,7 @@
     "explorer_url": "https:\/\/cyb.ai\/network\/bostrom\/tx\/{txHash}"
   },
   {
-    "active": "true",
+    "active": "false",
     "destination_chain_id": "gravity-bridge-3",
     "destination_channel_id": "channel-103",
     "source_chain_id": "bostrom",
@@ -48,7 +48,7 @@
     "explorer_url": "https:\/\/mintscan.io\/desmos\/txs\/{txHash}"
   },
   {
-    "active": "true",
+    "active": "false",
     "destination_chain_id": "axelar-dojo-1",
     "destination_channel_id": "channel-52",
     "source_chain_id": "bostrom",
