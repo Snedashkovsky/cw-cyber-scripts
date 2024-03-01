@@ -7,7 +7,7 @@ from aiohttp.client_exceptions import ClientConnectorError
 
 from cyber_sdk.exceptions import LCDResponseError
 
-from src.contract_utils import ContractUtils
+from ..src.contract_utils import ContractUtils
 
 
 warnings.filterwarnings("ignore")
